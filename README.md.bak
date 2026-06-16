@@ -1,5 +1,4 @@
-
-<h1 align="center">@neodevxsadmd/baileys</h1>
+ align="center">@neodevxsadmd/baileys</h1>
 
 ---
 
@@ -15,10 +14,12 @@
 
 <div align="center">
   <img src="https://img.shields.io/npm/v/@neodevxsadmd/baileys?style=flat-square&logo=npm" alt="npm version">
+  <img src="https://img.shields.io/badge/lisensi-MIT-c084fc?style=flat-square" alt="license"/>
+  <img src="https://img.shields.io/badge/platform-Node.js-22c55e?style=flat-square&logo=nodedotjs&logoColor=white" alt="platform"/>
   <img src="https://img.shields.io/npm/dw/@neodevxsadmd/baileys?style=flat-square&logo=npm" alt="weekly downloads">
-  <img src="https://img.shields.io/github/stars/Putrazaubdillah/baileys?style=flat-square&logo=github" alt="stars">
-  <img src="https://img.shields.io/github/license/Putrazaubdillah/baileys?style=flat-square" alt="license">
-  <img src="https://img.shields.io/github/last-commit/Putrazaubdillah/baileys?style=flat-square" alt="last commit">
+  <img src="https://img.shields.io/github/stars/putrazaubdillah/baileys?style=flat-square&logo=github" alt="stars">
+  <img src="https://img.shields.io/github/last-commit/putrazaubdillah/baileys?style=flat-square" alt="lastcommit">
+  <img src="https://img.shields.io/badge/WhatsApp-API-25d366?style=flat-square&logo=whatsapp&logoColor=white" alt="whatsapp"/>
 </div>
 
 ---
@@ -42,114 +43,141 @@
 
 ---
 
+---
+
 <details>
-<summary>🗺️ Navigation</summary>
+<summary>📋 Table of Contents </summary>
 
-🔌 **Connection & Setup** —
-[Installation](#installation) ·
-[QR Code](#qr-code-connection) ·
-[Pairing Code](#pairing-code-connection) ·
-[Browser Identity](#browser-identity) ·
-[Connection Options](#connection-options)
+<table>
+<tr>
+<td valign="top" width="25%">
 
-📨 **Handle Messages** —
-[Receive Message](#receive-message) ·
-[Handle Groups](#handle-groups)
+**🔌 Connection & Setup**
 
-📤 **Send Message** —
-[Text](#text) ·
-[Image](#image) ·
-[Video](#video) ·
-[Audio & Voice Note](#audio--voice-note) ·
-[Document](#document) ·
-[Sticker](#sticker) ·
-[Location](#location) ·
-[Contact](#contact)
+- [Installation](#-installation)
+- [QR Code](#-connection-qr-code)
+- [Pairing Code](#-connection-pairing-code)
+- [Browser Identity](#-browser-identity)
+- [Connection Options](#%EF%B8%8F-connection-options)
 
-💬 **Interactions** —
-[Reaction](#reaction) ·
-[Poll](#poll) ·
-[Poll Result](#poll-result) ·
-[Poll Update](#poll-update) ·
-[Forward](#forward) ·
-[Delete](#delete-message) ·
-[Edit](#edit-message) ·
-[Pin](#pin-message)
+**📨 Message Handle**
 
-✨ **Additional Features** —
-[Album](#album) ·
-[Event](#event) ·
-[Group Status / Story](#group-status--group-story) ·
-[Status Mention](#status-mention) ·
-[Flow Reply](#flow-reply) ·
-[Button Reply](#button-reply) ·
-[Keep In Chat](#keep-in-chat) ·
-[Scheduled Call](#scheduled-call) ·
-[Group Invite](#group-invite) ·
-[Product](#product)
+- [Receive Message](#-receive-message)
+- [Handle Grip](#-handle-grip)
 
-🎁 **Wrappers** —
-[View Once](#view-once) ·
-[View Once V2](#view-once-v2) ·
-[Ephemeral](#ephemeral) ·
-[Spoiler](#spoiler) ·
-[Group Status Wrap](#group-status-wrap) ·
-[Lottie Sticker](#lottie-sticker) ·
-[AI Icon](#ai-icon) ·
-[Secure Meta Label](#secure-meta-service-label)
+**📤 Send Message**
 
-🎛️ **Interactive** —
-[Buttons with Location Header (buttonsMessage Direct)](#buttons-with-location-header-buttonsmessage-direct) ·
-[Buttons](#buttons) ·
-[List Message](#list-message) ·
-[Template Buttons](#template-buttons) ·
-[Native Flow](#native-flow) ·
-[Carousel](#carousel)
+- [Text](#-text)
+- [Image](#%EF%B8%8F-image)
+- [Video](#-video)
+- [Audio & Voice Note](#%EF%B8%8F-audio--voice-note)
+- [Document](#-document)
+- [Sticker](#-sticker)
+- [Location](#-location)
+- [Contact](#-contact)
 
-🤖 **Rich Message (AI)** —
-[Text](#addtext) ·
-[Code Block](#addcode) ·
-[Table](#addtable) ·
-[Image](#addimage) ·
-[Video](#addvideo) ·
-[Source](#addsource) ·
-[Reels](#addreels) ·
-[Product Card](#addproduct) ·
-[Post](#addpost) ·
-[Tip](#addtip) ·
-[Suggest](#addsuggest) ·
-[Map](#map-rich) ·
-[LaTeX](#latex-rich) ·
-[Grid Image](#grid-image-rich) ·
-[Inline Image](#inline-image-rich) ·
-[Dynamic/GIF](#dynamic--gif-rich) ·
-[Content Items](#content-items-rich) ·
-[Combined (richResponse)](#rich-response-combined) ·
-[Receive & Decode](#receive--decode-rich-message)
+</td>
+<td valign="top" width="25%">
 
-🔧 **Others** —
-[List Reply](#list-reply) ·
-[Sticker Pack](#sticker-pack) ·
-[External Ad Reply](#external-ad-reply) ·
-[Request Payment](#request-payment) ·
-[Invoice](#invoice) ·
-[Order](#order) ·
-[Disappearing Messages](#disappearing-messages) ·
-[Raw Message](#raw-message)
+**💬 Interaction**
+
+- [Reaction](#-reaction)
+- [Poll](#-poll)
+- [Poll Result](#-poll-result)
+- [Poll Update](#-poll-update)
+- [Forward](#%EF%B8%8F-forward)
+- [Delete Message](#%EF%B8%8F-delete-message)
+- [Edit Message](#%EF%B8%8F-edit-message)
+- [Message Pin](#-message-pin)
+
+**✨Additional Features**
+
+- [Album](#%EF%B8%8F-album)
+- [Event](#-event)
+- [Group Status / Story](#-group-status--group-story)
+- [Status Mention](#%EF%B8%8F-status-mention)
+- [Channel (Newsletter)](#-channel-newsletter)
+- [Flow Reply](#-flow-reply)
+- [Button Reply](#-button-reply)
+- [Keep In Chat](#-keep-in-chat)
+- [Scheduled Call](#-scheduled-call)
+- [Group Invite](#-group-invite)
+- [Product](#%EF%B8%8F-product)
+
+</td>
+<td valign="top" width="25%">
+
+**🎁 Wrapper**
+
+- [View Once](#%EF%B8%8F-view-once)
+- [View Once V2](#%EF%B8%8F-view-once-v2)
+- [Ephemeral](#-ephemeral)
+- [Spoiler](#-spoiler)
+- [Group Status Wrap](#-group-status-wrap)
+- [Lottie Sticker](#%EF%B8%8F-lottie-sticker)
+- [AI Icon](#-ai-icon)
+- [Secure Meta Label](#-secure-meta-service-label)
+
+- [Buttons Location Header](#-buttons-with-location-header)
+- [Buttons](#%EF%B8%8F-buttons)
+- [List Message](#-list-message)
+- [Template Buttons](#%EF%B8%8F-template-buttons)
+- [Native Flow](#-native-flow)
+- [Carousel](#-carousel)
+
+**🔧 More**
+
+- [List Reply](#-list-reply)
+- [Sticker Pack](#-sticker-pack)
+- [External Ad Reply](#-external-ad-reply)
+- [Request Payment](#-request-payment)
+- [Invoice](#-invoice)
+- [Order](#-order)
+- [Disappearing Messages](#-disappearing-messages)
+- [Raw Message](#-raw-message)
+
+</td>
+<td valign="top" width="25%">
+
+**🤖 Rich Message (AI)**
+
+- [addText](#-addtext)
+- [addCode](#-addcode)
+- [addTable](#-addtable)
+- [addImage](#%EF%B8%8F-addimage)
+- [add Video](#-and video)
+- [addSource](#-addsource)
+- [addReels](#-addreels)
+- [addProduct](#%EF%B8%8F-addproduct)
+- [add Post](#-add post)
+- [addTip](#-addtip)
+- [add Suggest](#-and suggestion)
+- [Map](#%EF%B8%8F-map-rich)
+- [LaTeX](#-latex-rich)
+- [Grid Image](#%EF%B8%8F-grid-image-rich)
+- [Inline Image](#-inline-image-rich)
+- [Dynamic/GIF](#%EF%B8%8F-dynamic--gif-rich)
+- [Content Items](#-content-items-rich)
+- [Rich Response](#-rich-response-combined)
+- [Receive & Decode](#-receive--decode-rich-message)
+
+</td>
+</tr>
+</table>
 
 </details>
 
 ---
 
 <details>
-<summary>📦 Installation</summary>
+<summary> 📦 Installation </summary>
 
 ```js
 // CommonJS
-const { default: makeWASocket } = require('@neodevxsadmd/baileys')
+const { default: makeWASocket } = require("@neodevxsadmd/baileys");
 
 // ESM
-import makeWASocket from '@neodevxsadmd/baileys'
+import makeWASocket from "@neodevxsadmd/baileys";
 ```
 
 </details>
@@ -157,14 +185,14 @@ import makeWASocket from '@neodevxsadmd/baileys'
 ---
 
 <details>
-<summary>📱 QR Code Connection</summary>
+<summary> 📱 QR Code Connection </summary>
 
 ```js
 const {
-  default: makeWASocket,
-  useMultiFileAuthState,
-  DisconnectReason,
-  fetchLatestBaileysVersion
+default: makeWASocket,
+useMultiFileAuthState,
+DisconnectReason,
+fetch Latest Baileys Version
 } = require('@neodevxsadmd/baileys')
 
 async function start() {
@@ -173,7 +201,7 @@ async function start() {
 
   const sock = makeWASocket({
     version,
-    auth: state,
+    auth:state,
     printQRInTerminal: true
   })
 
@@ -195,28 +223,31 @@ start()
 ---
 
 <details>
-<summary>🔑 Pairing Code Connection</summary>
+<summary>🔑 Connection Pairing Code </summary>
 
-Suitable for servers/VPS without a terminal display.
+> Suitable for servers/VPS without terminal display.
 
 ```js
-const sock = makeWASocket({ version, auth: state, printQRInTerminal: false })
+const sock = makeWASocket({ version, auth: state, printQRInTerminal: false });
 
-sock.ev.on('creds.update', saveCreds)
-sock.ev.on('connection.update', ({ connection, lastDisconnect }) => {
-  if (connection === 'close') {
-    if (lastDisconnect?.error?.output?.statusCode !== DisconnectReason.loggedOut) start()
+sock.ev.on("creds.update", saveCreds);
+sock.ev.on("connection.update", ({ connection, lastDisconnect }) => {
+  if (connection === "close") {
+    if (
+      lastDisconnect?.error?.output?.statusCode !== DisconnectReason.loggedOut
+    )
+      start();
   }
-})
+});
 
-// Phone number in international format without +
+// International format cellphone number without +
 if (!sock.authState.creds.registered) {
-  const code = await sock.requestPairingCode('628123456789')
-  console.log('Pairing code:', code)
+  const code = await sock.requestPairingCode("628123456789");
+  console.log("Pairing code:", code);
 }
 
 // Custom pairing code (8 characters)
-const code = await sock.requestPairingCode('628123456789', 'NDXSADMD')
+const code = await sock.requestPairingCode("628123456789", "NUYY2822");
 ```
 
 </details>
@@ -224,19 +255,19 @@ const code = await sock.requestPairingCode('628123456789', 'NDXSADMD')
 ---
 
 <details>
-<summary>🌐 Browser Identity</summary>
+<summary>🌐 Browser Identity </summary>
 
 ```js
-const { Browsers } = require('@neodevxsadmd/baileys')
+const { Browsers } = require("@neodevxsadmd/baileys");
 
 makeWASocket({
-  browser: Browsers.macOS('Chrome'),    // Mac OS — Chrome
-  browser: Browsers.macOS('Firefox'),   // Mac OS — Firefox
-  browser: Browsers.windows('Chrome'),  // Windows — Chrome
-  browser: Browsers.ubuntu('Chrome'),   // Ubuntu — Chrome
-  browser: Browsers.baileys('Chrome'),  // Baileys — Chrome
-  browser: ['MyBot', 'Chrome', '1.0.0'] // custom
-})
+  browser: Browsers.macOS("Chrome"), // Mac OS — Chrome
+  browser: Browsers.macOS("Firefox"), // Mac OS — Firefox
+  browser: Browsers.windows("Chrome"), // Windows — Chrome
+  browser: Browsers.ubuntu("Chrome"), // Ubuntu — Chrome
+  browser: Browsers.baileys("Chrome"), // Baileys — Chrome
+  browser: ["MyBot", "Chrome", "1.0.0"], // custom
+});
 ```
 
 </details>
@@ -244,22 +275,23 @@ makeWASocket({
 ---
 
 <details>
-<summary>⚙️ Connection Options</summary>
+<summary>⚙️ Connection Options </summary>
 
 ```js
 makeWASocket({
   version,
   auth: state,
   printQRInTerminal: true,
-  browser: Browsers.macOS('Chrome'),
+  browser: Browsers.macOS("Chrome"),
   connectTimeoutMs: 20000,
   keepAliveIntervalMs: 30000,
   markOnlineOnConnect: true,
   syncFullHistory: false,
   generateHighQualityLinkPreview: false,
   emitOwnEvents: true,
-  getMessage: async key => store?.messages?.[key.remoteJid]?.get(key.id)?.message
-})
+  getMessage: async (key) =>
+    store?.messages?.[key.remoteJid]?.get(key.id)?.message,
+});
 ```
 
 </details>
@@ -267,30 +299,31 @@ makeWASocket({
 ---
 
 <details>
-<summary>📬 Receive Message</summary>
+<summary>📬 Receive Message </summary>
 
 ```js
-sock.ev.on('messages.upsert', async ({ messages, type }) => {
-  if (type !== 'notify') return
+sock.ev.on("messages.upsert", async ({ messages, type }) => {
+  if (type !== "notify") return;
 
   for (const m of messages) {
-    if (!m.message) continue
-    if (m.key.fromMe) continue
+    if (!m.message) continue;
+    if (m.key.fromMe) continue;
 
-    const jid = m.key.remoteJid
-    const isGroup = jid.endsWith('@g.us')
-    const sender = isGroup ? m.key.participant : jid
+    const jid = m.key.remoteJid;
+    const isGroup = jid.endsWith("@g.us");
+    const sender = isGroup ? m.key.participant : jid;
 
     const text =
       m.message.conversation ||
       m.message.extendedTextMessage?.text ||
       m.message.imageMessage?.caption ||
-      m.message.videoMessage?.caption || ''
+      m.message.videoMessage?.caption ||
+      "";
 
-    await sock.readMessages([m.key])
-    await sock.sendPresenceUpdate('composing', jid)
+    await sock.readMessages([m.key]);
+    await sock.sendPresenceUpdate("composing", jid);
   }
-})
+});
 ```
 
 </details>
@@ -298,45 +331,57 @@ sock.ev.on('messages.upsert', async ({ messages, type }) => {
 ---
 
 <details>
-<summary>👥 Handle Groups</summary>
+<summary>👥 Group Handle </summary>
 
 ```js
-// Members join/leave
-sock.ev.on('group-participants.update', ({ id, participants, action }) => {
+// Members log in/out
+sock.ev.on("group-participants.update", ({ id, participants, action }) => {
   // action: 'add' | 'remove' | 'promote' | 'demote'
-})
+});
 
 // Group info updated
-sock.ev.on('groups.update', updates => {})
+sock.ev.on("groups.update", (updates) => {});
 
 // Group metadata
-const meta = await sock.groupMetadata(groupJid)
-console.log(meta.subject, meta.participants)
+const meta = await sock.groupMetadata(groupJid);
+console.log(meta.subject, meta.participants);
 
 // All groups
-const groups = await sock.groupFetchAllParticipating()
+const groups = await sock.groupFetchAllParticipating();
 
 // Add / remove / promote / demote
-await sock.groupParticipantsUpdate(groupJid, ['628xxx@s.whatsapp.net'], 'add')
-await sock.groupParticipantsUpdate(groupJid, ['628xxx@s.whatsapp.net'], 'remove')
-await sock.groupParticipantsUpdate(groupJid, ['628xxx@s.whatsapp.net'], 'promote')
-await sock.groupParticipantsUpdate(groupJid, ['628xxx@s.whatsapp.net'], 'demote')
+await sock.groupParticipantsUpdate(groupJid, ["628xxx@s.whatsapp.net"], "add");
+await sock.groupParticipantsUpdate(
+  groupJid,
+  ["628xxx@s.whatsapp.net"],
+  "remove",
+);
+await sock.groupParticipantsUpdate(
+  groupJid,
+  ["628xxx@s.whatsapp.net"],
+  "promote",
+);
+await sock.groupParticipantsUpdate(
+  groupJid,
+  ["628xxx@s.whatsapp.net"],
+  "demote",
+);
 
-// Change name / description
-await sock.groupUpdateSubject(groupJid, 'New Name')
-await sock.groupUpdateDescription(groupJid, 'New description')
+// Change name/description
+await sock.groupUpdateSubject(groupJid, "New Name");
+await sock.groupUpdateDescription(groupJid, "New description");
 
-// Lock / unlock group
-await sock.groupSettingUpdate(groupJid, 'announcement')
-await sock.groupSettingUpdate(groupJid, 'not_announcement')
+// Lock/unlock group
+await sock.groupSettingUpdate(groupJid, "announcement");
+await sock.groupSettingUpdate(groupJid, "not_announcement");
 
 // Mention all members
-const meta2 = await sock.groupMetadata(groupJid)
-const members = meta2.participants.map(p => p.id)
+const meta2 = await sock.groupMetadata(groupJid);
+const members = meta2.participants.map((p) => p.id);
 await sock.sendMessage(groupJid, {
-  text: members.map(m => `@${m.split('@')[0]}`).join(' '),
-  mentions: members
-})
+  text: members.map((m) => `@${m.split("@")[0]}`).join(" "),
+  mentions: members,
+});
 ```
 
 </details>
@@ -344,16 +389,20 @@ await sock.sendMessage(groupJid, {
 ---
 
 <details>
-<summary>💬 Text</summary>
+<summary>💬 Text </summary>
 
 ```js
-await sock.sendMessage(jid, { text: 'Hello!' })
+await sock.sendMessage(jid, { text: "Hello!" });
 
-// With mention
-await sock.sendMessage(jid, {
-  text: '@628xxx hello!',
-  mentions: ['628xxx@s.whatsapp.net']
-}, { quoted: m })
+// With mentions
+await sock.sendMessage(
+  jid,
+  {
+    text: "@628xxx hello!",
+    mentions: ["628xxx@s.whatsapp.net"],
+  },
+  { quoted: m },
+);
 ```
 
 </details>
@@ -361,20 +410,20 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>🖼️ Image</summary>
+<summary>🖼️ Image </summary>
 
 ```js
 // URL
 await sock.sendMessage(jid, {
-  image: { url: 'https://example.com/image.jpg' },
-  caption: 'Description'
-})
+  image: { url: "https://example.com/image.jpg" },
+  caption: "Caption",
+});
 
-// Buffer
+// Buffers
 await sock.sendMessage(jid, {
-  image: fs.readFileSync('image.jpg'),
-  caption: 'Description'
-})
+  image: fs.readFileSync("image.jpg"),
+  caption: "Caption",
+});
 ```
 
 </details>
@@ -382,20 +431,20 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>🎬 Video</summary>
+<summary>🎬 Videos </summary>
 
 ```js
 await sock.sendMessage(jid, {
-  video: { url: 'https://example.com/video.mp4' },
-  caption: 'Description',
-  gifPlayback: false  // true = GIF looping
-})
+  video: { url: "https://example.com/video.mp4" },
+  caption: "Caption",
+  gifPlayback: false, // true = GIF looping
+});
 
-// Video note (bubble)
+// Video notes (bubble)
 await sock.sendMessage(jid, {
-  video: fs.readFileSync('video.mp4'),
-  ptv: true
-})
+  video: fs.readFileSync("video.mp4"),
+  ptv: true,
+});
 ```
 
 </details>
@@ -403,21 +452,21 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>🎙️ Audio & Voice Note</summary>
+<summary>🎙️ Audio & Voice Notes</summary>
 
 ```js
 // Regular audio
 await sock.sendMessage(jid, {
-  audio: { url: 'https://example.com/audio.mp3' },
-  mimetype: 'audio/mpeg'
-})
+  audio: { url: "https://example.com/audio.mp3" },
+  mimetype: "audio/mpeg",
+});
 
-// Voice note (PTT)
+// Voice notes (PTT)
 await sock.sendMessage(jid, {
-  audio: fs.readFileSync('voice.ogg'),
-  mimetype: 'audio/ogg; codecs=opus',
-  ptt: true
-})
+  audio: fs.readFileSync("voice.ogg"),
+  mimetype: "audio/ogg; codecs=opus",
+  ptt: true,
+});
 ```
 
 </details>
@@ -425,15 +474,15 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>📄 Document</summary>
+<summary>📄 Documents </summary>
 
 ```js
 await sock.sendMessage(jid, {
-  document: fs.readFileSync('file.pdf'),
-  mimetype: 'application/pdf',
-  fileName: 'document.pdf',
-  caption: 'This file'
-})
+  document: fs.readFileSync("file.pdf"),
+  mimetype: "application/pdf",
+  fileName: "document.pdf",
+  caption: "This file",
+});
 ```
 
 </details>
@@ -441,10 +490,10 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>🎴 Sticker</summary>
+<summary>🎴 Stickers </summary>
 
 ```js
-await sock.sendMessage(jid, { sticker: fs.readFileSync('sticker.webp') })
+await sock.sendMessage(jid, { sticker: fs.readFileSync("sticker.webp") });
 ```
 
 </details>
@@ -452,13 +501,13 @@ await sock.sendMessage(jid, { sticker: fs.readFileSync('sticker.webp') })
 ---
 
 <details>
-<summary>📍 Location</summary>
+<summary>📍 Location </summary>
 
 ```js
 await sock.sendMessage(jid, {
   location: {
     degreesLatitude: -6.2088,
-    degreesLongitude: 106.8456,
+    degrees Longitude: 106.8456,
     name: 'Monas',
     address: 'Central Jakarta'
   }
@@ -470,14 +519,18 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>👤 Contact</summary>
+<summary>👤 Contact </summary>
 
 ```js
 await sock.sendMessage(jid, {
   contacts: {
     displayName: 'Name',
     contacts: [{
-      vcard: 'BEGIN:VCARD\nVERSION:3.0\nFN:Name\nTEL:+62812345678\nEND:VCARD'
+      vcard: 'BEGIN:VCARD
+      VERSION:3.0
+      FN:Name
+      TEL:+62812345678
+      END:VCARD'
     }]
   }
 })
@@ -488,13 +541,13 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>❤️ Reaction</summary>
+<summary>❤️ Reaction </summary>
 
 ```js
-await sock.sendMessage(jid, { react: { text: '❤️', key: m.key } })
+await sock.sendMessage(jid, { react: { text: "❤️", key: m.key } });
 
-// Remove reaction
-await sock.sendMessage(jid, { react: { text: '', key: m.key } })
+// Delete reaction
+await sock.sendMessage(jid, { react: { text: "", key: m.key } });
 ```
 
 </details>
@@ -502,14 +555,14 @@ await sock.sendMessage(jid, { react: { text: '', key: m.key } })
 ---
 
 <details>
-<summary>📊 Poll</summary>
+<summary>📊 Poll </summary>
 
 ```js
 await sock.sendMessage(jid, {
   poll: {
     name: 'Choose one',
     values: ['Option A', 'Option B', 'Option C'],
-    selectableCount: 1  // 0 = multiple choices allowed
+    selectableCount: 1 // 0 = many selectable
   }
 })
 
@@ -522,17 +575,17 @@ await sock.sendMessage(jid, {
     endDate: new Date('2025-12-31'),
     hideVoter: true,
     canAddOption: false,
-    toAnnouncementGroup: false
+    to Announcement Group: false
   }
 })
 
-// Quiz (Poll with correct answer)
+// Quiz (Poll with correct answers)
 await sock.sendMessage(jid, {
   poll: {
     name: 'Capital of Indonesia?',
     values: ['Jakarta', 'Surabaya', 'Bandung'],
     selectableCount: 1,
-    pollType: 1,           // 1 = QUIZ
+    pollType: 1, // 1 = QUIZ
     correctAnswer: 'Jakarta'
   }
 })
@@ -543,19 +596,19 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>📈 Poll Result</summary>
+<summary>📈 Poll Results </summary>
 
 ```js
 await sock.sendMessage(jid, {
   pollResult: {
-    name: 'Poll Name',
+    name: "Poll Name",
     votes: [
-      { name: 'Option A', voteCount: 10 },
-      { name: 'Option B', voteCount: 5 }
+      { name: "Option A", voteCount: 10 },
+      { name: "Option B", voteCount: 5 },
     ],
-    pollType: 0  // 0 = POLL, 1 = QUIZ
-  }
-})
+    pollType: 0, // 0 = POLL, 1 = QUIZ
+  },
+});
 ```
 
 </details>
@@ -563,14 +616,14 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>🔄 Poll Update</summary>
+<summary>🔄 Poll Update </summary>
 
 ```js
 await sock.sendMessage(jid, {
   pollUpdate: {
     key: pollMessage.key,
-    vote: encryptedVotePayload,
-    metadata: optionalMetadata
+    vote: encrypted Vote Payload,
+  metadata: optionalMetadata
   }
 })
 ```
@@ -580,13 +633,13 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>↗️ Forward</summary>
+<summary>↗️ Forward </summary>
 
 ```js
 await sock.sendMessage(jid, {
   forward: targetMessage,
-  force: true  // force display as forwarded
-})
+  force: true, // force to appear as forwarded
+});
 ```
 
 </details>
@@ -597,7 +650,7 @@ await sock.sendMessage(jid, {
 <summary>🗑️ Delete Message</summary>
 
 ```js
-await sock.sendMessage(jid, { delete: m.key })
+await sock.sendMessage(jid, { delete: m.key });
 ```
 
 </details>
@@ -605,13 +658,13 @@ await sock.sendMessage(jid, { delete: m.key })
 ---
 
 <details>
-<summary>✏️ Edit Message</summary>
+<summary>✏️ Edit Message </summary>
 
 ```js
 await sock.sendMessage(jid, {
-  text: 'Edited text',
-  edit: m.key
-})
+  text: "Edited text",
+  edit: m.key,
+});
 ```
 
 </details>
@@ -619,18 +672,18 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>📌 Pin Message</summary>
+<summary>📌 Message Pin </summary>
 
 ```js
 // Pin
 await sock.sendMessage(jid, {
   pin: m.key,
   type: 1,
-  time: 86400  // 86400=1hr | 604800=7hr | 2592000=30hr
-})
+  time: 86400, // 86400=1hr | 604800=7hr | 2592000=30hr
+});
 
-// Unpin
-await sock.sendMessage(jid, { pin: m.key, type: 2 })
+// Unipin
+await sock.sendMessage(jid, { pin: m.key, type: 2 });
 ```
 
 </details>
@@ -638,17 +691,17 @@ await sock.sendMessage(jid, { pin: m.key, type: 2 })
 ---
 
 <details>
-<summary>🗂️ Album</summary>
+<summary>🗂️ Album s</summary>
 
 ```js
 await sock.sendMessage(jid, {
-  album: [
-    { image: { url: 'https://example.com/1.jpg' }, caption: 'Photo 1' },
-    { image: { url: 'https://example.com/2.jpg' }, caption: 'Photo 2' },
-    { video: { url: 'https://example.com/vid.mp4' }, caption: 'Video' }
-  ]
-})
-// minimum 2 media
+  albums: [
+    { image: { url: "https://example.com/1.jpg" }, caption: "Photo 1" },
+    { image: { url: "https://example.com/2.jpg" }, caption: "Photo 2" },
+    { video: { url: "https://example.com/vid.mp4" }, caption: "Video" },
+  ],
+});
+// at least 2 media
 ```
 
 </details>
@@ -656,7 +709,7 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>📅 Event</summary>
+<summary>📅 Events </summary>
 
 ```js
 await sock.sendMessage(jid, {
@@ -667,7 +720,7 @@ await sock.sendMessage(jid, {
     endDate: new Date('2025-12-01T12:00:00'),
     location: {
       degreesLatitude: -6.2088,
-      degreesLongitude: 106.8456,
+      degrees Longitude: 106.8456,
       name: 'Monas, Jakarta'
     },
     extraGuestsAllowed: true
@@ -677,9 +730,9 @@ await sock.sendMessage(jid, {
 // Event with scheduled call
 await sock.sendMessage(jid, {
   event: {
-    name: 'Online Meeting',
+    name: 'Meeting Online',
     startDate: new Date('2025-12-01T10:00:00'),
-    call: 'audio',   // 'audio' | 'video'
+    call: 'audio', // 'audio' | 'video'
     isScheduleCall: true
   }
 })
@@ -690,27 +743,27 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>📖 Group Status / Group Story</summary>
+<summary>📖 Group Status / Group Story </summary>
 
 ```js
 // Text
 await sock.sendMessage(groupJid, {
-  groupStatusMessage: { text: 'Status text' }
+  group Status Message: { text: 'Status text' }
 })
 
-// Image
+// Picture
 await sock.sendMessage(groupJid, {
   groupStatusMessage: {
     image: { url: 'https://example.com/image.jpg' },
-    caption: 'Description'
+  caption: 'Caption'
   }
 })
 
-// Video
+// Videos
 await sock.sendMessage(groupJid, {
   groupStatusMessage: {
     video: { url: 'https://example.com/video.mp4' },
-    caption: 'Description'
+  caption: 'Caption'
   }
 })
 
@@ -718,7 +771,7 @@ await sock.sendMessage(groupJid, {
 await sock.sendMessage(groupJid, {
   groupStatusMessage: {
     audio: { url: 'https://example.com/audio.mp3' },
-    mimetype: 'audio/mpeg'
+  mimetype: 'audio/mpeg'
   }
 })
 
@@ -726,31 +779,129 @@ await sock.sendMessage(groupJid, {
 await sock.sendMessage(groupJid, {
   groupStatusMessage: {
     audio: fs.readFileSync('voice.ogg'),
-    mimetype: 'audio/ogg; codecs=opus',
-    ptt: true
+  mimetype: 'audio/ogg; codecs=opus',
+  ptt: true
   }
 })
 ```
 
-Audio behavior note: When audio is sent as a group status (groupStatusMessageV2), the message is sent with type="text" and without the mediatype attribute — this is the same behavior as upstream Baileys. Unlike other media (image/video) which are sent with type="media".
+> **Audio note:** When audio is sent as a group status (`groupStatusMessageV2`), the message is sent with a `type="text"` and without a `mediatype` attribute — the same behavior as Baileys upstream. This is different from other media (images/videos) which are sent with `type="media"`.
 
 </details>
 
 ---
 
 <details>
-<summary>🔁 Flow Reply</summary>
+<summary>🏷️ Status Mentions </summary>
+
+```js
+// Send to JID array to trigger mention status
+await sock.sendMessage(["628xxx@s.whatsapp.net", "yyy@g.us"], {
+  text: "Hey you!",
+  backgroundColor: "#ff6b9d",
+});
+
+// Image with mention
+await sock.sendMessage(["628xxx@s.whatsapp.net"], {
+  image: { url: "https://example.com/image.jpg" },
+  caption: "For you",
+});
+```
+
+> For groups, automatically use `groupStatusMentionMessage`.
+
+</details>
+
+---
+
+<details>
+<summary>📡 Channel (Newsletter) </summary>
+
+> **Fix v0.1.16** — Sending media to previous channels did not work due to two bugs: `mediatype` attribute was not sent to the server and thumbnails were not generated. Both have been fixed in this version.
+
+> Only **admin/owner** channels can post. The channel's JID uses the `@newsletter` format.
+
+```js
+const channelJid = "120363425154682710@newsletter";
+
+// Text
+await sock.sendMessage(channelJid, { text: "Hello from channel!" });
+
+// Image from URL
+await sock.sendMessage(channelJid, {
+  image: { url: "https://example.com/image.jpg" },
+  caption: "Image caption",
+});
+
+// Image from local file
+await sock.sendMessage(channelJid, {
+  image: { url: "./image.jpg" },
+  caption: "From local file",
+});
+
+// Image from Buffer
+await sock.sendMessage(channelJid, {
+  image: fs.readFileSync("image.jpg"),
+  caption: "From the buffer",
+});
+
+// Videos
+await sock.sendMessage(channelJid, {
+  video: { url: "https://example.com/video.mp4" },
+  caption: "Video caption",
+});
+
+// Audio
+await sock.sendMessage(channelJid, {
+  audio: { url: "https://example.com/audio.mp3" },
+  mimetype: "audio/mpeg",
+});
+
+// Documents
+await sock.sendMessage(channelJid, {
+  document: { url: "https://example.com/file.pdf" },
+  mimetype: "application/pdf",
+  fileName: "document.pdf",
+});
+
+// Poll
+await sock.sendMessage(channelJid, {
+  poll: {
+    name: "Question for subscribers",
+    values: ["Option A", "Option B", "Option C"],
+    selectableCount: 1,
+  },
+});
+
+// Edit channel message
+await sock.sendMessage(channelJid, {
+  text: "Edited text",
+  edit: oldmessage.key,
+});
+
+// Delete channel message
+await sock.sendMessage(channelJid, { delete: oldmessage.key });
+```
+
+> **Note:** Channels do not support E2E encryption — media is uploaded as raw files (unencrypted), unlike regular chat.
+
+</details>
+
+---
+
+<details>
+<summary>🔁 Flow Reply </summary>
 
 ```js
 await sock.sendMessage(jid, {
   flowReply: {
-    name: 'quick_reply',
+    name: "quick_reply",
     paramsJson: '{"id":"btn1"}',
-    text: 'Reply text',
+    text: "Reply text",
     format: 1,
-    version: 1
-  }
-})
+    version: 1,
+  },
+});
 ```
 
 </details>
@@ -758,20 +909,20 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>🔘 Button Reply</summary>
+<summary>🔘 Reply Button </summary>
 
 ```js
-// Template button
+// Button templates
 await sock.sendMessage(jid, {
-  buttonReply: { displayText: 'Selected option', id: 'btn_id', index: 0 },
-  type: 'template'
-})
+  buttonReply: { displayText: "Selected option", id: "btn_id", index: 0 },
+  type: "template",
+});
 
 // Plain button
 await sock.sendMessage(jid, {
-  buttonReply: { displayText: 'Selected option', id: 'btn_id' },
-  type: 'plain'
-})
+  buttonReply: { displayText: "Selected option", id: "btn_id" },
+  type: "plain",
+});
 ```
 
 </details>
@@ -779,13 +930,13 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>📎 Keep In Chat</summary>
+<summary>📎 Keep In Chat </summary>
 
 ```js
 await sock.sendMessage(jid, {
   keep: m.key,
-  keepType: 1  // 1 = keep, 2 = unkeep
-})
+  keepType: 1, // 1 = keep, 2 = unkeep
+});
 ```
 
 </details>
@@ -793,16 +944,16 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>📞 Scheduled Call</summary>
+<summary>📞 Scheduled Call </summary>
 
 ```js
 await sock.sendMessage(jid, {
   call: {
     time: Date.now() + 3600000,
-    type: 1,  // 1 = voice, 2 = video
-    title: 'Meeting'
-  }
-})
+    type: 1, // 1 = voice, 2 = video
+    title: "Meeting",
+  },
+});
 ```
 
 </details>
@@ -810,18 +961,18 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>🔗 Group Invite</summary>
+<summary>🔗 Group Invite </summary>
 
 ```js
 await sock.sendMessage(jid, {
   groupInvite: {
-    jid: 'xxx@g.us',
-    inviteCode: 'code',
+    jid: "xxx@g.us",
+    inviteCode: "code",
     inviteExpiration: Date.now() + 86400000,
-    subject: 'Group Name',
-    text: 'Join us'
-  }
-})
+    subject: "Group Name",
+    text: "Join us",
+  },
+});
 ```
 
 </details>
@@ -829,7 +980,7 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>🛍️ Product</summary>
+<summary>🛍️ Products </summary>
 
 ```js
 await sock.sendMessage(jid, {
@@ -839,11 +990,11 @@ await sock.sendMessage(jid, {
     title: 'Product Name',
     description: 'Product description',
     currencyCode: 'IDR',
-    priceAmount1000: 50000000,
+    price Amount 1000: 50000000,
     retailerId: 'sku_001',
-    url: 'https://store.example.com/product'
+    url: 'https://toko.example.com/produk'
   },
-  businessOwnerJid: '628xxx@s.whatsapp.net'  // required
+  businessOwnerJid: '628xxx@s.whatsapp.net' // required
 })
 ```
 
@@ -852,13 +1003,13 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>👁️ View Once</summary>
+<summary>👁️ View Once </summary>
 
 ```js
 await sock.sendMessage(jid, {
-  image: { url: 'https://example.com/image.jpg' },
-  viewOnce: true
-})
+  image: { url: "https://example.com/image.jpg" },
+  viewOnce: true,
+});
 ```
 
 </details>
@@ -866,19 +1017,19 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>👁️ View Once V2</summary>
+<summary>👁️ View Once V2 </summary>
 
 ```js
 await sock.sendMessage(jid, {
-  image: { url: 'https://example.com/image.jpg' },
-  viewOnceV2: true
-})
+  image: { url: "https://example.com/image.jpg" },
+  viewOnceV2: true,
+});
 
-// viewOnceV2Extension
+// view Once V2 Extension
 await sock.sendMessage(jid, {
-  image: { url: 'https://example.com/image.jpg' },
-  viewOnceV2Extension: true
-})
+  image: { url: "https://example.com/image.jpg" },
+  viewOnceV2Extension: true,
+});
 ```
 
 </details>
@@ -886,13 +1037,13 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>⏳ Ephemeral</summary>
+<summary>⏳ Ephemeral </summary>
 
 ```js
 await sock.sendMessage(jid, {
-  text: 'This message is ephemeral',
-  ephemeral: true
-})
+  text: "This message is ephemeral",
+  ephemeral: true,
+});
 ```
 
 </details>
@@ -900,14 +1051,14 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>🙈 Spoiler</summary>
+<summary>🙈 Spoilers </summary>
 
 ```js
 await sock.sendMessage(jid, {
-  image: { url: 'https://example.com/image.jpg' },
-  caption: 'Spoiler!',
-  spoiler: true
-})
+  image: { url: "https://example.com/image.jpg" },
+  caption: "Spoilers!",
+  spoiler: true,
+});
 ```
 
 </details>
@@ -915,46 +1066,46 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>🎭 Group Status Wrap</summary>
+<summary>🎭 Group Status Wrap </summary>
 
-Wrapper groupStatus: true automatically wraps any message into groupStatusMessageV2.
+The `groupStatus: true` wrapper wraps any message into `groupStatusMessageV2` automatically.
 
 ```js
 // Text
 await sock.sendMessage(jid, {
-  text: 'Status in this group',
-  groupStatus: true
-})
+  text: "Status in this group",
+  groupStatus: true,
+});
 
-// Image
+// Picture
 await sock.sendMessage(jid, {
-  image: { url: 'https://example.com/image.jpg' },
-  caption: 'Description',
-  groupStatus: true
-})
+  image: { url: "https://example.com/image.jpg" },
+  caption: "Caption",
+  groupStatus: true,
+});
 
 // Audio
 await sock.sendMessage(jid, {
-  audio: { url: 'https://example.com/audio.mp3' },
-  mimetype: 'audio/mpeg',
-  groupStatus: true
-})
+  audio: { url: "https://example.com/audio.mp3" },
+  mimetype: "audio/mpeg",
+  groupStatus: true,
+});
 ```
 
-Audio note: Audio messages wrapped with groupStatus: true are sent with type="text" and without mediatype (upstream Baileys behavior). This only applies to audio — images and videos are still sent as type="media".
+> **Audio note:** Audio messages wrapped in `groupStatus: true` are sent with `type="text"` and without `mediatype` (upstream Baileys behavior). This only applies to audio — images and videos are still sent as `type="media"`.
 
 </details>
 
 ---
 
 <details>
-<summary>🎞️ Lottie Sticker</summary>
+<summary>🎞️ Lottie Sticker </summary>
 
 ```js
 await sock.sendMessage(jid, {
-  sticker: fs.readFileSync('sticker.webp'),
-  isLottie: true
-})
+  sticker: fs.readFileSync("sticker.webp"),
+  isLottie: true,
+});
 ```
 
 </details>
@@ -962,17 +1113,17 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>🤖 AI Icon</summary>
+<summary>🤖 AI Icon </summary>
 
 ```js
 // Only for private chat (not group)
-await sock.sendMessage(jid, { text: 'AI response', ai: true })
+await sock.sendMessage(jid, { text: "Response from AI", ai: true });
 
 await sock.sendMessage(jid, {
-  image: { url: 'https://example.com/image.jpg' },
-  caption: 'Generated by AI',
-  ai: true
-})
+  image: { url: "https://example.com/image.jpg" },
+  caption: "Generated by AI",
+  ai: true,
+});
 ```
 
 </details>
@@ -980,13 +1131,13 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>🔒 Secure Meta Service Label</summary>
+<summary>🔒 Secure Meta Service Label </summary>
 
 ```js
 await sock.sendMessage(jid, {
-  text: 'Official service message',
-  secureMetaServiceLabel: true
-})
+  text: "Order official service",
+  secureMetaServiceLabel: true,
+});
 ```
 
 </details>
@@ -994,369 +1145,294 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>📍 Buttons with Location Header (buttonsMessage Direct)</summary>
+<summary>📍 Buttons with Location Header </summary>
 
-Send buttons using buttonsMessage directly — useful for Location header type (headerType: 6) which cannot be created via the buttons shorthand.
+Send buttons using `buttonsMessage` directly — useful for headers of type **Location** (`headerType: 6`) that cannot be created via the `buttons` shorthand.
 
 ```js
-// Buttons with location header (headerType 6)
+// Button with location header (headerType 6)
 await sock.sendMessage(jid, {
-  buttonsMessage: {
+  button Message: {
     locationMessage: {
       degreesLatitude: 0,
-      degreesLongitude: 0,
-      name: 'neodevxsadmd',
+      degrees Longitude: 0,
+      name: 'NeoDev',
       address: 'SadMd',
-      jpegThumbnail: './src/img/menu.jpg'  // local path, URL, or Buffer
+      jpegThumbnail: './src/img/menu.jpg' // file path, URL, or Buffer
     },
     contentText: 'Select menu below',
     footerText: 'Powered by @neodevxsadmd/baileys',
     buttons: [
-      { buttonId: 'allmenu', buttonText: { displayText: 'All Menu' }, type: 1 }
+      { button: 'menu', button Text: { display Text: 'All Menu' }, type: 1 }
     ],
     headerType: 6
   }
 })
 
-// With quoted (reply to specific message)
+// Empty header (text only) — headerType 1
 await sock.sendMessage(jid, {
-  buttonsMessage: {
-    locationMessage: {
-      degreesLatitude: -6.2,
-      degreesLongitude: 106.8,
-      name: 'Bot Menu',
-      address: 'neodevxsadmd',
-      jpegThumbnail: './src/img/menu.jpg'
-    },
-    contentText: 'Hello! This is the main bot menu',
-    footerText: 'SadMD',
+  button Message: {
+    contentText: 'Select options',
+    footerText: 'Footer Bot',
     buttons: [
-      { buttonId: 'menu1', buttonText: { displayText: '🍱 Main Menu' }, type: 1 },
-      { buttonId: 'help',  buttonText: { displayText: '❓ Help' },    type: 1 }
+      { buttonId: 'yes', buttonText: { displayText: 'Yes' }, type: 1 },
+      { buttonId: 'no', buttonText: { displayText: 'No' }, type: 1 }
     ],
-    headerType: 6
-  }
-}, { quoted: m })
-
-// Empty header (text only, no media/location) — headerType 1
-await sock.sendMessage(jid, {
-  buttonsMessage: {
-    contentText: 'Select option',
-    footerText: 'Bot Footer',
-    buttons: [
-      { buttonId: 'yes', buttonText: { displayText: 'Yes' },  type: 1 },
-      { buttonId: 'no',  buttonText: { displayText: 'No' }, type: 1 }
-    ],
-    headerType: 1
+  headerType: 1
   }
 })
 ```
 
-headerType notes:
+**`headerType` value:**
 
-Value Header Type
-1 Text (contentText)
-2 Image (imageMessage)
-3 Video (videoMessage)
-4 Document (documentMessage)
-6 Location (locationMessage)
+| Value | Header Type                  |
+| :---: | ---------------------------- |
+|  `1`  | Text (`contentText`)         |
+|  `2`  | Image (`imageMessage`)       |
+|  `3`  | Video (`videoMessage`)       |
+|  `4`  | Document (`documentMessage`) |
+|  `6`  | Location (`locationMessage`) |
 
-jpegThumbnail in locationMessage can be a local file path, URL, or Buffer — automatically processed by Baileys.
+> `jpegThumbnail` in `locationMessage` can be **local file path**, **URL**, or **Buffer** — automatically processed by Baileys.
 
 </details>
 
 ---
 
 <details>
-<summary>🎛️ Buttons</summary>
+<summary>🎛️ Buttons </summary>
 
 ```js
-// Text with buttons (quick reply)
+// Text with button (quick reply)
 await sock.sendMessage(jid, {
-  text: 'Choose one',
-  footer: 'Message footer',
+  text: "Choose one",
+  footer: "Message footer",
   buttons: [
-    { id: 'btn1', text: 'Button 1' },
-    { id: 'btn2', text: 'Button 2' },
-    { id: 'btn3', text: 'Button 3' }
-  ]
-})
+    { id: "btn1", text: "Button 1" },
+    { id: "btn2", text: "Button 2" },
+    { id: "btn3", text: "Button 3" },
+  ],
+});
 
 // Image as header
 await sock.sendMessage(jid, {
-  image: { url: 'https://example.com/image.jpg' },
-  caption: 'Message content',
-  footer: 'Footer',
+  image: { url: "https://example.com/image.jpg" },
+  caption: "Message content",
+  footer: "Footer",
   buttons: [
-    { id: 'btn1', text: 'Choose A' },
-    { id: 'btn2', text: 'Choose B' }
-  ]
-})
+    { id: "btn1", text: "Choose A" },
+    { id: "btn2", text: "Choose B" },
+  ],
+});
 
-// Native flow button inside buttons — use name + paramsJson
+// Shorthand: sections directly on the button (automatically becomes single_select)
 await sock.sendMessage(jid, {
-  text: 'Select menu',
+  text: "Select menu",
   buttons: [
     {
-      name: 'single_select',
-      text: 'Open Menu',
-      paramsJson: JSON.stringify({
-        title: 'Open Menu',
-        sections: [{
-          title: 'Category A',
+      text: "Open Menu",
+      sections: [
+        {
+          title: "Category A",
           rows: [
-            { id: 'row1', title: 'Item 1', description: 'Description' },
-            { id: 'row2', title: 'Item 2' }
-          ]
-        }]
-      })
-    }
-  ]
-})
-
-// Shorthand: sections directly in button (automatically becomes single_select)
-await sock.sendMessage(jid, {
-  text: 'Select menu',
-  buttons: [{
-    text: 'Open Menu',
-    sections: [{
-      title: 'Category A',
-      rows: [
-        { id: 'row1', title: 'Item 1', description: 'Description' },
-        { id: 'row2', title: 'Item 2' }
-      ]
-    }]
-  }]
-})
+            { id: "row1", title: "Item 1", description: "Description" },
+            { id: "row2", title: "Item 2" },
+          ],
+        },
+      ],
+    },
+  ],
+});
 ```
 
-Button fields: use text or buttonText for label. For quick reply use id/buttonId. For native flow use name + paramsJson.
+> **Button field:** use `text` or `buttonText` for the label. Quick reply using `id`/`buttonId`. Native flow uses `name` + `paramsJson`.
 
 </details>
 
 ---
 
 <details>
-<summary>📋 List Message</summary>
+<summary>📋 List Messages </summary>
 
 ```js
 await sock.sendMessage(jid, {
-  text: 'Please select',       // → description (message content)
-  title: 'List Title',         // → title (title above list)
-  buttonText: 'Open List',     // → button text to open
-  footer: 'Message footer',    // → footerText
+  text: "Please select", // → description (message content)
+  title: "List Title", // → title (title at the top of the list)
+  buttonText: "Open List", // → opening button text
+  footer: "Message footer", // → footerText
   sections: [
     {
-      title: 'Section 1',
+      title: "Part 1",
       rows: [
-        { id: 'row1', title: 'Choice A', description: 'Description A' },
-        { id: 'row2', title: 'Choice B', description: 'Description B' }
-      ]
+        { id: "row1", title: "Choice A", description: "Description A" },
+        { id: "row2", title: "Choice B", description: "Description B" },
+      ],
     },
     {
-      title: 'Section 2',
-      rows: [
-        { id: 'row3', title: 'Choice C' }
-      ]
-    }
-  ]
-})
+      title: "Part 2",
+      rows: [{ id: "row3", title: "Choice C" }],
+    },
+  ],
+});
 ```
 
-Trigger key: sections (not listMessage). listType is automatically set to SINGLE_SELECT. The text field maps to description (message content), not the title — use title for the list title.
+> **Trigger key:** `sections`. `listType` is automatically set to `SINGLE_SELECT`. The `text` field is mapped to `description` — use `title` for the list title.
 
 </details>
 
 ---
 
 <details>
-<summary>🗃️ Template Buttons</summary>
+<summary>🗃️ Button Templates </summary>
 
 ```js
 // Text
 await sock.sendMessage(jid, {
-  text: 'Template message',       // → hydratedContentText
-  footer: 'Footer',               // → hydratedFooterText
-  id: 'template-unique',          // → templateId (optional, auto-generate if not set)
+  text: "Message template",
+  footer: "Footer",
+  id: "unique-template", // optional, auto-generate if not specified
   templateButtons: [
-    { id: 'btn1', text: 'Quick Reply' },
-    { url: 'https://example.com', text: 'Visit Website' },
-    { call: '+62812345678', text: 'Call Us' }
-  ]
-})
+    { id: "btn1", text: "Quick Reply" },
+    { url: "https://example.com", text: "Visit Website" },
+    { call: "+62812345678", text: "Contact Us" },
+  ],
+});
 
 // Image as header
 await sock.sendMessage(jid, {
-  image: { url: 'https://example.com/img.jpg' },
-  caption: 'Message content',     // → hydratedContentText
-  title: 'Title',                 // → hydratedTitleText (only active if caption exists)
-  footer: 'Footer',
+  image: { url: "https://example.com/img.jpg" },
+  caption: "Message content",
+  title: "Title",
+  footer: "Footer",
   templateButtons: [
-    { id: 'btn1', text: 'Click Here' },
-    { url: 'https://example.com', text: 'Open Link' }
-  ]
-})
+    { id: "btn1", text: "Click Here" },
+    { url: "https://example.com", text: "Open Link" },
+  ],
+});
 ```
 
-Button types: { id, text } → quick reply · { url, text } → URL button · { call, text } → call button. Both text or buttonText are accepted. If id is not provided, it defaults to template-<timestamp>.
+> **Button type:** `{ id, text }` → quick reply  ·  `{ url, text }` → URL button  ·  `{ call, text }` → call button.
 
 </details>
 
 ---
 
 <details>
-<summary>🌊 Native Flow</summary>
+<summary>🌊 Native Flow </summary>
 
 ```js
 // Quick reply
 await sock.sendMessage(jid, {
-  text: 'Choose action',
-  footer: 'Message footer',
+  text: "Select action",
+  footer: "Message footer",
   nativeFlow: [
-    { id: '1', text: 'Option 1' },   // id → quick_reply
-    { id: '2', text: 'Option 2' }
-  ]
-})
+    { id: "1", text: "Option 1" },
+    { id: "2", text: "Option 2" },
+  ],
+});
 
 // URL button
 await sock.sendMessage(jid, {
-  text: 'Visit us',
-  nativeFlow: [
-    { url: 'https://example.com', text: 'Open Website' }
-  ]
-})
+  text: "Visit us",
+  nativeFlow: [{ url: "https://example.com", text: "Open Website" }],
+});
 
-// Copy code button
+// Copy button code
 await sock.sendMessage(jid, {
-  text: 'Your promo code',
-  nativeFlow: [
-    { copy: 'PROMO2025', text: 'Copy Code' }
-  ]
-})
+  text: "Your promo code",
+  nativeFlow: [{ copy: "PROMO2025", text: "Copy Code" }],
+});
 
 // Call button
 await sock.sendMessage(jid, {
-  text: 'Contact us',
-  nativeFlow: [
-    { call: '+62812345678', text: 'Call Now' }
-  ]
-})
+  text: "Contact us",
+  nativeFlow: [{ call: "+62812345678", text: "Call Now" }],
+});
 
-// Single select (list inside button)
+// Single select (list in button)
 await sock.sendMessage(jid, {
-  text: 'Select menu',
+  text: "Select menu",
   nativeFlow: [
     {
-      sections: [{
-        title: 'Category A',
-        rows: [
-          { id: 'row1', title: 'Item 1', description: 'Description' },
-          { id: 'row2', title: 'Item 2' }
-        ]
-      }],
-      text: 'Open List'
-    }
-  ]
-})
-
-// With icon on button
-await sock.sendMessage(jid, {
-  text: 'Choose action',
-  nativeFlow: [
-    { id: '1', text: 'Confirm', icon: 'CHECK' },
-    { url: 'https://example.com', text: 'Open', icon: 'LINK' }
-  ]
-})
-
-// Image as header — MUST use image/video/document/location/product
-// if no valid media → throw Error: Invalid media type
-await sock.sendMessage(jid, {
-  image: { url: 'https://example.com/img.jpg' },
-  caption: 'Message content',   // → body.text
-  title: 'Title',               // → header.title
-  subtitle: 'Subtitle',         // → header.subtitle
-  footer: 'Footer',
-  nativeFlow: [
-    { id: '1', text: 'Button 1' }
-  ]
-})
-
-// With audio footer (replaces text footer)
-await sock.sendMessage(jid, {
-  text: 'Message with audio footer',
-  audioFooter: fs.readFileSync('audio.ogg'),
-  nativeFlow: [
-    { id: '1', text: 'OK' }
-  ]
-})
-
-// offerText — appears as limited time offer banner
-await sock.sendMessage(jid, {
-  text: 'Limited offer!',
-  offerText: '50% off',
-  offerUrl: 'https://example.com/promo',
-  offerCode: 'DISKON50',
-  offerExpiration: 1800000000,
-  nativeFlow: [
-    { id: 'claim', text: 'Claim Now' }
-  ]
-})
-
-// optionText — buttons go into bottom sheet
-await sock.sendMessage(jid, {
-  text: 'Select option',
-  optionText: 'See All Options',
-  optionTitle: 'Option List',
-  nativeFlow: [
-    { id: '1', text: 'Option A' },
-    { id: '2', text: 'Option B' }
-  ]
-})
-
-// Wrap as templateMessage
-await sock.sendMessage(jid, {
-  text: 'Interactive template',
-  nativeFlow: [
-    { id: '1', text: 'Button' }
+      sections: [
+        {
+          title: "Category A",
+          rows: [
+            { id: "row1", title: "Item 1", description: "Description" },
+            { id: "row2", title: "Item 2" },
+          ],
+        },
+      ],
+      text: "Open Register",
+    },
   ],
-  interactiveAsTemplate: true,
-  id: 'template-id-unique'
-})
+});
+
+// Image as header
+await sock.sendMessage(jid, {
+  image: { url: "https://example.com/img.jpg" },
+  caption: "Message content",
+  title: "Title",
+  subtitle: "Subtitle",
+  footer: "Footer",
+  nativeFlow: [{ id: "1", text: "Button 1" }],
+});
+
+// offerText — limited time offer banner
+await sock.sendMessage(jid, {
+  text: "Limited offer!",
+  offerText: "50% Off",
+  offerUrl: "https://example.com/promo",
+  offerCode: "DISKON50",
+  offerExpiration: 1800000000,
+  nativeFlow: [{ id: "claim", text: "Claim Now" }],
+});
+
+// optionText — button goes to bottom sheet
+await sock.sendMessage(jid, {
+  text: "Select an option",
+  optionText: "See All Options",
+  optionTitle: "Option List",
+  nativeFlow: [
+    { id: "1", text: "Option A" },
+    { id: "2", text: "Option B" },
+  ],
+});
 ```
 
-Button type is determined automatically from the field present: id → quick_reply · url → cta_url · copy → cta_copy · call → cta_call · sections → single_select. You can also use name + paramsJson directly for full control. Both text or buttonText are accepted. icon field is optional (uppercase string, e.g. 'CHECK', 'LINK').
+> **Button type is determined automatically:** `id` → quick_reply  ·  `url` → cta_url  ·  `copy` → cta_copy  ·  `call` → cta_call  ·  `sections` → single_select. Optional `icon` field (example: `'CHECK'`, `'LINK'`).
 
 </details>
 
 ---
 
 <details>
-<summary>🎠 Carousel</summary>
+<summary>🎠 Carousel </summary>
 
 ```js
 await sock.sendMessage(jid, {
-  text: 'Main carousel',
-  footer: 'Main footer',
+  text: "Main carousel",
+  footer: "Main footer",
   cards: [
     {
-      image: { url: 'https://example.com/1.jpg' },
-      title: 'Card 1',
-      caption: 'Description of card 1',
-      footer: 'Card 1 footer',
+      image: { url: "https://example.com/1.jpg" },
+      title: "Card 1",
+      caption: "Card description 1",
+      footer: "Card footer 1",
       nativeFlow: [
-        { name: 'quick_reply', paramsJson: '{"id":"c1"}', text: 'Choose This' }
-      ]
+        { name: "quick_reply", paramsJson: '{"id":"c1"}', text: "SelectThis" },
+      ],
     },
     {
-      image: { url: 'https://example.com/2.jpg' },
-      title: 'Card 2',
-      caption: 'Description of card 2',
+      image: { url: "https://example.com/2.jpg" },
+      title: "Card 2",
+      caption: "Card description 2",
       nativeFlow: [
-        { name: 'quick_reply', paramsJson: '{"id":"c2"}', text: 'Choose That' }
-      ]
-    }
-  ]
-})
+        { name: "quick_reply", paramsJson: '{"id":"c2"}', text: "Select That" },
+      ],
+    },
+  ],
+});
 ```
 
 </details>
@@ -1364,383 +1440,288 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>🏷️ Status Mention</summary>
+<summary>🤖 Rich Message (AI) </summary>
 
-```js
-// Send to an array of JIDs to trigger status mention
-await sock.sendMessage(['628xxx@s.whatsapp.net', 'yyy@g.us'], {
-  text: 'Hey you!',
-  backgroundColor: '#ff6b9d'
-})
+> Rich messages use the `AIRichResponseMessage` format which appears like an AI response in WhatsApp. All types can be used flat (direct fields) or combined via `richResponse: [...]`.
 
-// Image with mention
-await sock.sendMessage(['628xxx@s.whatsapp.net'], {
-  image: { url: 'https://example.com/image.jpg' },
-  caption: 'For you'
-})
-```
-
-For groups, automatically uses groupStatusMentionMessage.
-
-</details>
+> ⚠️ **Important:** `contentText`, `headerText`, `footerText`, and `disclaimerText` are **not** trigger keys. If only that field is sent, the message will not be processed as a rich message and will result in **Error: Invalid media type**. Always include at least one trigger key (`code`, `table`, `richImage`, `richVideo`, `richResponse`, etc.).
 
 ---
 
-<details>
-<summary>🤖 Rich Message (AI)</summary>
-
-Rich message uses the AIRichResponseMessage format which appears like an AI response on WhatsApp. All types below can be used flat (direct fields) or combined via richResponse: [...].
-
-⚠️ Important: contentText, headerText, footerText, and disclaimerText are not trigger keys — meaning if only those fields are sent, the message will not be processed as a rich message and will result in an Error: Invalid media type. Always use at least one trigger key (code, table, richImage, richVideo, richResponse, etc.), then combine with the above text fields as supplements.
-
-✍️ addText
-
-Send markdown text as an AI Rich Response. Supports hyperlinks, citations, and inline LaTeX.
-
-Because contentText is not a trigger key, use richResponse: [{ text }] for pure text messages:
+### ✍️ addText
 
 ```js
-// ✅ Correct — use richResponse array
+// ✅ Correct way — use richResponse array for pure text
 await sock.sendMessage(jid, {
   richResponse: [
-    { text: 'This is AI text with *markdown* and **bold**.' }
+    { text: "This is text from the AI with *markdown* and **bold**." },
   ],
-  headerText: 'Title',
-  footerText: 'Footer',
-  disclaimerText: 'Generated by AI'
-})
+  headerText: "Title",
+  footerText: "Footer",
+  disclaimerText: "Generated by AI",
+});
 ```
 
 ```js
-// ✅ Alternative — contentText as supplement to another trigger key
+// ❌ WRONG — contentText alone does not trigger a rich message
 await sock.sendMessage(jid, {
-  code: 'console.log("Hello")',
-  language: 'javascript',
-  contentText: 'Additional explanation here.',
-  headerText: 'Title',
-  footerText: 'Footer',
-  disclaimerText: 'Generated by AI'
-})
-```
-
-```js
-// ❌ WRONG — contentText alone will not trigger rich message
-await sock.sendMessage(jid, {
-  contentText: 'hello',
-  headerText: 'Title',
-  footerText: 'Footer',
-  disclaimerText: 'Generated by AI'
+  contentText: "hello",
+  headerText: "Title",
   // → Error: Invalid media type
-})
+});
 ```
 
 ---
 
-💻 addCode
-
-Send a code block with syntax highlighting.
+### 💻 addCode
 
 ```js
 await sock.sendMessage(jid, {
   code: 'console.log("Hello World!")',
-  language: 'javascript',  // default: 'javascript'
-  headerText: 'Example code:',
-  footerText: 'Hope this helps',
-  disclaimerText: 'Generated by AI'
-})
+  language: "javascript", // default: 'javascript'
+  headerText: "Code example:",
+  footerText: "Hope this helps",
+  disclaimerText: "Generated by AI",
+});
 ```
 
-Supported languages:
+**Supported languages:**
 
-Language Key
-JavaScript javascript, js
-TypeScript typescript, ts
-Python python, py
-Go go, golang
-C++ cpp, c++
-Rust rust, rs
-Java java
-PHP php
-Ruby ruby, rb
-Kotlin kotlin, kt
-Swift swift
-C c
-SQL/MySQL/PostgreSQL sql, mysql, postgresql, sqlite
-Bash/Shell bash, sh, shell
-HTML html
-CSS css
-JSON json
-YAML yaml, yml
+| Language             | Key                                    |
+| -------------------- | -------------------------------------- |
+| JavaScript           | `javascript`, `js`                     |
+| TypeScript           | `typescript`, `ts`                     |
+| Python               | `python`, `py`                         |
+| Go                   | `go`, `golang`                         |
+| C++                  | `cpp`, `c++`                           |
+| Rust                 | `rust`, `rs`                           |
+| Java                 | `java`                                 |
+| PHP                  | `php`                                  |
+| Ruby                 | `ruby`, `rb`                           |
+| Kotlin               | `kotlin`, `kt`                         |
+| Swift                | `swift`                                |
+| C                    | `c`                                    |
+| SQL/MySQL/PostgreSQL | `sql`, `mysql`, `postgresql`, `sqlite` |
+| Bash/Shell           | `bash`, `sh`, `shell`                  |
+| HTML                 | `html`                                 |
+| CSS                  | `css`                                  |
+| JSON                 | `json`                                 |
+| YAML                 | `yaml`, `yml`                          |
 
 ---
 
-📊 addTable
-
-Send a table from a 2D array. The first row automatically becomes the header.
+### 📊 addTable
 
 ```js
 await sock.sendMessage(jid, {
   table: [
-    ['Name', 'Age', 'City'],   // first row = header
-    ['Hana', '20', 'Jakarta'],
-    ['Risa', '22', 'Bandung'],
-    ['Yuki', '21', 'Surabaya']
+    ["Name", "Age", "City"], // first row = header
+    ["Hana", "20", "Jakarta"],
+    ["Risa", "22", "Bandung"],
+    ["Yuki", "21", "Surabaya"],
   ],
-  title: 'Member Data',
-  headerText: 'Here is the data',
-  footerText: 'Data as of June 2025'
-})
+  title: "Member Data",
+  headerText: "Here is the data",
+  footerText: "Data as of June 2025",
+});
 
-// Without header row
+// No header line
 await sock.sendMessage(jid, {
   table: [
-    ['Item A', 'Rp 10.000'],
-    ['Item B', 'Rp 20.000']
+    ["Item A", "Rp 10,000"],
+    ["Item B", "Rp 20,000"],
   ],
   noHeading: true,
-  title: 'Price List'
-})
+  title: "Price List",
+});
 ```
 
 ---
 
-🖼️ addImage
-
-Send one or more images as a grid image in the AI Rich Response.
+### 🖼️ addImage
 
 ```js
-// Single image
+// One image
 await sock.sendMessage(jid, {
-  richImage: 'https://example.com/photo.jpg',
-  headerText: 'Image for you'
-})
+  richImage: "https://example.com/photo.jpg",
+  headerText: "Image for you",
+});
 
 // Multiple images (grid)
 await sock.sendMessage(jid, {
   richImage: [
-    'https://example.com/photo1.jpg',
-    'https://example.com/photo2.jpg',
-    'https://example.com/photo3.jpg'
+    "https://example.com/photo1.jpg",
+    "https://example.com/photo2.jpg",
+    "https://example.com/photo3.jpg",
   ],
-  headerText: 'Image collection',
-  footerText: 'Hope you like it'
-})
+  headerText: "Image collection",
+});
 ```
-
-image accepts a string URL or an array of string URLs. Unlike gridImage (verbose format), image is a more practical shorthand.
 
 ---
 
-🎬 addVideo
-
-Send one or more videos in the AI Rich Response.
+### 🎬 addVideo
 
 ```js
-// Single video
+// One video
 await sock.sendMessage(jid, {
-  richVideo: 'https://example.com/video.mp4',
-  headerText: 'Video for you'
-})
+  richVideo: "https://example.com/video.mp4",
+  headerText: "Video for you",
+});
 
 // With duration (format: 'url|duration_seconds')
 await sock.sendMessage(jid, {
-  richVideo: 'https://example.com/video.mp4|120',
-  headerText: 'Video duration 2 minutes'
-})
+  richVideo: "https://example.com/video.mp4|120",
+  headerText: "2 minute video",
+});
 
-// Multiple videos
+// Some videos
 await sock.sendMessage(jid, {
   richVideo: [
-    'https://example.com/video1.mp4|60',
-    'https://example.com/video2.mp4|90'
+    "https://example.com/video1.mp4|60",
+    "https://example.com/video2.mp4|90",
   ],
-  headerText: 'Video playlist'
-})
+  headerText: "Video playlist",
+});
 ```
-
-Video URL format: 'url' or 'url|duration_seconds'. Duration in seconds, default 0.
 
 ---
 
-🔗 addSource
-
-Send a list of reference sources/links as search result cards.
+### 🔗 addSource
 
 ```js
 await sock.sendMessage(jid, {
   source: [
     {
-      url: 'https://example.com/article',
-      title: 'Article Title',
-      display_name: 'Example.com',
-      subtitle: 'Trusted source',
-      favicon: 'https://example.com/favicon.ico'
+      url: "https://example.com/article",
+      title: "Article Title",
+      display_name: "Example.com",
+      subtitle: "Reliable source",
+      favicon: "https://example.com/favicon.ico",
     },
     {
-      url: 'https://docs.example.com/api',
-      title: 'API Documentation',
-      display_name: 'Docs',
-      subtitle: 'Complete reference'
-    }
+      url: "https://docs.example.com/api",
+      title: "API Documentation",
+      display_name: "Docs",
+      subtitle: "Complete reference",
+    },
   ],
-  headerText: 'Reference sources'
-})
+  headerText: "Reference source",
+});
 ```
 
-Fields for each source:
-
-Field Type Description
-url string Destination URL (required)
-title string Source title
-display_name string Display name
-subtitle string Short description/subtitle
-favicon string Favicon URL (optional)
-source_type string Default 'THIRD_PARTY'
+| Fields         | Type    | Description                |
+| -------------- | ------- | -------------------------- |
+| `url`          | strings | Destination URL (required) |
+| `title`        | strings | Source title               |
+| `display_name` | strings | Display name               |
+| `subtitle`     | strings | Subtitle/short description |
+| `favicon`      | strings | Favicon URL (optional)     |
+| `source_type`  | strings | Default `'THIRD_PARTY'`    |
 
 ---
 
-🎥 addReels
-
-Send a list of reel/video carousel (horizontal scroll) like content recommendations.
+### 🎥 addReels
 
 ```js
 await sock.sendMessage(jid, {
   reels: [
     {
-      username: 'creator1',
-      videoUrl: 'https://example.com/reel1.mp4',
-      thumbnailUrl: 'https://example.com/thumb1.jpg',
-      profileIconUrl: 'https://example.com/avatar1.jpg',
-      reels_title: 'Reel Title 1',
+      username: "creator1",
+      videoUrl: "https://example.com/reel1.mp4",
+      thumbnailUrl: "https://example.com/thumb1.jpg",
+      profileIconUrl: "https://example.com/avatar1.jpg",
+      reels_title: "Reel 1 Title",
       likes_count: 1200,
       view_count: 50000,
-      shares_count: 300,
-      reel_source: 'IG',
-      is_verified: true
+      reel_source: "IG",
+      is_verified: true,
     },
-    {
-      username: 'creator2',
-      videoUrl: 'https://example.com/reel2.mp4',
-      thumbnailUrl: 'https://example.com/thumb2.jpg',
-      profileIconUrl: 'https://example.com/avatar2.jpg',
-      reels_title: 'Reel Title 2',
-      likes_count: 800,
-      view_count: 20000,
-      reel_source: 'TT'  // TikTok
-    }
   ],
-  headerText: 'Video recommendations'
-})
+  headerText: "Video recommendation",
+});
 ```
 
-Fields for each reel:
-
-Field Type Description
-username / title string Creator name
-videoUrl / url string Video URL
-thumbnailUrl / thumbnail string Thumbnail URL
-profileIconUrl / profile_url string Profile picture URL
-reels_title string Reel title
-likes_count / like number Number of likes
-view_count / view number Number of views
-shares_count / share number Number of shares
-reel_source / source string 'IG', 'TT', etc.
-is_verified / verified boolean Verified account
+| Fields                           | Type    | Description         |
+| -------------------------------- | ------- | ------------------- |
+| `username` / `title`             | strings | Creator name        |
+| `videoUrl` / `url`               | strings | Video URL           |
+| `thumbnailUrl` / `thumbnail`     | strings | Thumbnail URL       |
+| `profileIconUrl` / `profile_url` | strings | Profile photo URL   |
+| `reels_title`                    | strings | Reel title          |
+| `likes_count` / `like`           | number  | Number of likes     |
+| `view_count` / `views`           | number  | Number of views     |
+| `reel_source` / `source`         | strings | `'IG'`, `'TT'`, etc |
+| `is_verified` / `verified`       | boolean | Verified account    |
 
 ---
 
-🛍️ addProduct
-
-Send product cards (single or horizontal scroll for multiple products).
+### 🛍️ addProduct
 
 ```js
-// Single product (Single layout)
+// One product (Single layout)
 await sock.sendMessage(jid, {
   richProduct: {
     title: 'Product Name',
     brand: 'Brand Name',
-    price: 'Rp 150.000',
-    sale_price: 'Rp 120.000',
-    product_url: 'https://store.example.com/product',
-    image_url: 'https://example.com/product.jpg',
-    icon_url: 'https://example.com/icon.jpg'
+    price: 'Rp 150,000',
+    sale_price: 'Rp 120,000',
+    product_url: 'https://toko.example.com/produk',
+    image_url: 'https://example.com/produk.jpg'
   },
-  headerText: 'Product recommendation for you'
+  headerText: 'Product recommendations for you'
 })
 
 // Multiple products (HScroll layout)
 await sock.sendMessage(jid, {
   richProduct: [
-    {
-      title: 'Product A',
-      brand: 'Brand X',
-      price: 'Rp 50.000',
-      product_url: 'https://store.example.com/a',
-      image_url: 'https://example.com/a.jpg'
-    },
-    {
-      title: 'Product B',
-      brand: 'Brand Y',
-      price: 'Rp 75.000',
-      sale_price: 'Rp 60.000',
-      product_url: 'https://store.example.com/b',
-      image_url: 'https://example.com/b.jpg'
-    }
+  {
+    title: 'Product A',
+    price: 'Rp 50,000',
+    product_url: 'https://toko.example.com/a',
+    image_url: 'https://example.com/a.jpg'
+  },
+  {
+    title: 'Product B',
+    price: 'Rp 75,000',
+    sale_price: 'Rp 60,000',
+    product_url: 'https://toko.example.com/b',
+    image_url: 'https://example.com/b.jpg'
+  }
   ],
-  headerText: 'Today\'s top picks'
+  headerText: 'Today's featured products'
 })
 ```
 
-Fields for each product:
-
-Field Type Description
-title string Product name
-brand string Brand name
-price string Normal price (free text, e.g. 'Rp 50.000')
-sale_price / salePrice string Discount price
-product_url / url string Product link
-image_url / image string Main image URL
-icon_url / icon string Additional image URL
-
-Send a single object → Single layout. Send an array → HScroll layout.
+> Single object → **Single layout**  ·  Array → **HScroll layout**
 
 ---
 
-📝 addPost
-
-Send social media post cards (Instagram, TikTok, etc.) in a horizontal scroll.
+### 📝 addPost
 
 ```js
-// Single post
+// One post
 await sock.sendMessage(jid, {
   richPost: {
-    title: 'Post Title',
-    subtitle: 'Subtitle',
     username: 'username',
     profile_picture_url: 'https://example.com/avatar.jpg',
     is_verified: true,
     thumbnail_url: 'https://example.com/thumb.jpg',
-    post_caption: 'This post caption',
+    post_caption: 'Caption this post',
     likes_count: 5000,
-    comments_count: 200,
-    shares_count: 100,
     post_url: 'https://instagram.com/p/xxx',
-    post_deeplink: 'instagram://post/xxx',
     source_app: 'INSTAGRAM',
-    footer_label: 'View on Instagram',
-    orientation: 'LANDSCAPE',  // 'LANDSCAPE' | 'PORTRAIT'
-    post_type: 'VIDEO'          // 'VIDEO' | 'IMAGE'
+    orientation: 'LANDSCAPE'
   },
-  headerText: 'Top post'
+  headerText: 'Most popular posts'
 })
 
 // Multiple posts (horizontal carousel)
-await sock.sendMessage(jid, {
+  await sock.sendMessage(jid, {
   richPost: [
     {
       username: 'user1',
       thumbnail_url: 'https://example.com/thumb1.jpg',
-      post_caption: 'First post caption',
       likes_count: 3000,
       post_url: 'https://instagram.com/p/aaa',
       source_app: 'INSTAGRAM'
@@ -1748,166 +1729,48 @@ await sock.sendMessage(jid, {
     {
       username: 'user2',
       thumbnail_url: 'https://example.com/thumb2.jpg',
-      post_caption: 'Second post caption',
       likes_count: 1500,
       post_url: 'https://tiktok.com/@user2/video/yyy',
       source_app: 'TIKTOK'
     }
   ],
-  headerText: 'Trending posts today'
-})
-```
-
-Fields for each post:
-
-Field Type Description
-title string Post title
-subtitle string Subtitle
-username string Username
-profile_picture_url / profile_url string Profile picture URL
-is_verified / verified boolean Verified account
-thumbnail_url / thumbnail string Post thumbnail URL
-post_caption / caption string Post caption/text
-likes_count / like number Number of likes
-comments_count / comment number Number of comments
-shares_count / share number Number of shares
-post_url / url string Post URL
-post_deeplink / deeplink string App deep link
-source_app / source string 'INSTAGRAM', 'TIKTOK', etc.
-footer_label / footer string Footer text
-footer_icon / icon string Footer icon URL
-orientation string 'LANDSCAPE' or 'PORTRAIT'
-post_type string 'VIDEO' or 'IMAGE'
-
----
-
-💡 addTip
-
-Send short text as metadata/tip (appears smaller and subtle).
-
-```js
-await sock.sendMessage(jid, {
-  tip: 'This information is generated by AI based on the latest data.',
-  headerText: 'Summary'
-})
-
-// Combined with other types
-await sock.sendMessage(jid, {
-  contentText: 'Here is the answer...',
-  tip: 'Answers may not always be accurate. Independent verification is recommended.'
+  headerText: 'Today's trending posts'
 })
 ```
 
 ---
 
-🔮 addSuggest
-
-Send follow-up prompt suggestions as pill buttons that users can click directly.
+### 💡 addTip
 
 ```js
-// Single suggestion
 await sock.sendMessage(jid, {
-  contentText: 'That is the explanation.',
-  suggest: 'Explain in more detail'
-})
+  tip: "This information was generated by AI based on the latest data.",
+  headerText: "Summary",
+});
+```
 
-// Multiple suggestions
+---
+
+### 🔮 addSuggest
+
+```js
+// Some suggestions (appears as a pill button)
 await sock.sendMessage(jid, {
-  contentText: 'Is there anything you would like to ask?',
+  contentText: 'Is there anything you want to ask?',
   suggest: [
-    'Show me the code?',
-    'What is the difference?',
+    'Code example?',
+    'What's the difference?',
     'When should it be used?',
-    'Are there any alternatives?'
+    'There are other alternatives?'
   ]
 })
 ```
 
-Suggestions appear as pill buttons below the message. When the user taps one, the suggestion text is sent as a new message.
-
 ---
 
-🖼️ Grid Image (Rich)
-
-Send a grid image using verbose format (full URL object).
-
-For practical use, use the shorthand image.
+### 🗺️ Map (Rich)
 
 ```js
-// Full URL object (recommended for full control)
-await sock.sendMessage(jid, {
-  gridImage: {
-    gridImageUrl: {
-      imagePreviewUrl: 'https://picsum.photos/id/10/300/300',
-      imageHighResUrl: 'https://picsum.photos/id/10/1200/1200',
-      sourceUrl: 'https://picsum.photos'
-    },
-    imageUrls: [
-      {
-        imagePreviewUrl: 'https://picsum.photos/id/11/300/300',
-        imageHighResUrl: 'https://picsum.photos/id/11/1200/1200',
-        sourceUrl: 'https://picsum.photos'
-      }
-    ]
-  },
-  headerText: 'Image search results'
-})
-
-// String URL (shorthand)
-await sock.sendMessage(jid, {
-  gridImage: {
-    gridImageUrl: 'https://picsum.photos/id/10/300/300',
-    imageUrls: ['https://picsum.photos/id/11/300/300']
-  },
-  headerText: 'Image search results'
-})
-```
-
----
-
-📸 Inline Image (Rich)
-
-Send an image that appears inline within the text.
-
-```js
-await sock.sendMessage(jid, {
-  inlineImage: {
-    imageUrl: 'https://picsum.photos/id/237/300/300',
-    imageText: 'Illustration',
-    alignment: 2,    // 0 = leading, 1 = trailing, 2 = center
-    tapLinkUrl: 'https://picsum.photos'
-  },
-  headerText: 'Here is the illustration',
-  footerText: 'Tap image for details'
-})
-```
-
----
-
-🎞️ Dynamic / GIF (Rich)
-
-Send an animation or GIF.
-
-```js
-await sock.sendMessage(jid, {
-  dynamic: {
-    url: 'https://example.com/animation.gif',
-    type: 2,        // 1 = IMAGE, 2 = GIF
-    version: 1,
-    loopCount: 0    // 0 = loop forever
-  },
-  headerText: 'Animation for you'
-})
-```
-
----
-
-🗺️ Map (Rich)
-
-Send an interactive map with location annotations.
-
-```js
-// Single location
 await sock.sendMessage(jid, {
   map: {
     centerLatitude: -6.2088,
@@ -1920,309 +1783,233 @@ await sock.sendMessage(jid, {
         number: 1,
         latitude: -6.2088,
         longitude: 106.8456,
-        title: 'Central Jakarta',
-        body: 'Capital of Indonesia'
-      }
-    ]
+        title: "Central Jakarta",
+        body: "Capital of Indonesia",
+      },
+    ],
   },
-  headerText: 'Location you are looking for'
-})
-
-// Multiple locations
-await sock.sendMessage(jid, {
-  map: {
-    centerLatitude: -7.2575,
-    centerLongitude: 112.7521,
-    latitudeDelta: 0.1,
-    longitudeDelta: 0.1,
-    showInfoList: true,
-    annotations: [
-      { number: 1, latitude: -7.2575, longitude: 112.7521, title: 'Surabaya', body: 'City of Heroes' },
-      { number: 2, latitude: -7.9797, longitude: 112.6304, title: 'Malang', body: 'City of Flowers' }
-    ]
-  },
-  headerText: 'Cities in East Java'
-})
+  headerText: "The location you are looking for",
+});
 ```
 
 ---
 
-🧮 LaTeX (Rich)
+### 🧮 LaTeX (Rich)
 
-Send mathematical formulas in LaTeX format.
-
-The url for each expression will be automatically generated from latex.codecogs.com if not provided.
+> `url` in each expression will be **automatically generated** from [latex.codecogs.com](https://latex.codecogs.com) if not filled in.
 
 ```js
-// Single formula
-await sock.sendMessage(jid, {
-  latex: {
-    text: 'Here is the formula you requested:',
-    expressions: [
-      { expression: 'E = mc^2', width: 120, height: 40 }
-    ]
-  },
-  headerText: 'Einstein\'s Formula',
-  footerText: 'E = energy, m = mass, c = speed of light'
-})
-
-// Multiple formulas
 await sock.sendMessage(jid, {
   latex: {
     text: 'Basic physics formulas:',
     expressions: [
       { expression: 'F = ma', width: 80, height: 35 },
       { expression: 'v = u + at', width: 100, height: 35 },
-      { expression: 's = ut + \\frac{1}{2}at^2', width: 160, height: 50 }
+      { expression: 's = ut + \frac{1}{2}at^2', width: 160, height: 50 }
     ]
   },
-  headerText: 'Newton\'s Laws',
-  disclaimerText: 'Basic physics grade 10'
+  headerText: 'Newton's Laws'
 })
 ```
 
 ---
 
-🧮 generateLatexContent / sendLatex (Standalone)
-
-Standalone functions compatible with upstream Baileys. Can be called directly from the socket:
+### 🖼️ Grid Image (Rich)
 
 ```js
-const { generateLatexContent, generateLatexImageContent, generateLatexInlineImageContent } = require('@neodevxsadmd/baileys')
-
-// sendLatex — URL auto-generated via codecogs if not provided
-await sock.sendLatex(jid, m, {
-  text: 'Pythagorean theorem:',
-  expressions: [
-    { latexExpression: 'a^2 + b^2 = c^2', width: 150, height: 45 }
-  ],
-  headerText: 'Mathematics',
-  footer: 'Hope you understand!'
-})
-
-// sendLatexImage — render to PNG first, then upload
-await sock.sendLatexImage(jid, m, {
-  expressions: [{ latexExpression: 'E = mc^2' }]
-}, renderLatexToPng, sock.waUploadToServer)
-
-// sendLatexInlineImage — render to PNG, send as InlineImage per expression
-await sock.sendLatexInlineImage(jid, m, {
-  expressions: [{ latexExpression: '\\int_0^\\infty e^{-x} dx = 1' }]
-}, renderLatexToPng, sock.waUploadToServer)
-```
-
-📊 sendTable / sendTableV2 / sendList (Standalone)
-
-```js
-// sendTable — V1 format
-await sock.sendTable(jid, 'City Data', ['City', 'Population'], [['Jakarta', '10 million'], ['Surabaya', '3 million']], m)
-
-// sendList
-await sock.sendList(jid, 'Shopping List', ['Apple', 'Orange', 'Mango'], m)
-```
-
-💻 sendCodeBlock / sendCodeBlockV2 (Standalone)
-
-```js
-await sock.sendCodeBlock(jid, 'console.log("Hello")', m, { language: 'javascript', title: 'JS Example' })
-```
-
-🔗 sendLink / sendLinkV2 (Standalone)
-
-```js
-await sock.sendLink(jid, 'Check out this documentation', [{ url: 'https://docs.example.com', displayName: 'Docs' }], m)
-```
-
-🎁 sendRichMessage / sendUnifiedResponse / captureUnifiedResponse (Standalone)
-
-```js
-// Send raw submessage array
-await sock.sendRichMessage(jid, [
-  { messageType: 2, messageText: 'First text' },
-  { messageType: 2, messageText: 'Second text' }
-], m)
-
-// Capture and forward unified response
-const captured = sock.captureUnifiedResponse(existingMsg.message)
-if (captured) await sock.sendUnifiedResponse(jid, m, captured)
+await sock.sendMessage(jid, {
+  gridImage: {
+    gridImageUrl: "https://picsum.photos/id/10/300/300",
+    imageUrls: ["https://picsum.photos/id/11/300/300"],
+  },
+  headerText: "Image search results",
+});
 ```
 
 ---
 
-📦 Content Items (Rich)
+### 📸 Inline Image (Rich)
 
-Send a content carousel (reel/video) in verbose format.
+```js
+await sock.sendMessage(jid, {
+    inlineImage: {
+    imageUrl: 'https://picsum.photos/id/237/300/300',
+    imageText: 'Image illustration',
+    alignment: 2, // 0 = leading, 1 = trailing, 2 = center
+    tapLinkUrl: 'https://picsum.photos'
+  },
+  headerText: 'Here's an illustration'
+})
+```
 
-For practical use, use the shorthand reels.
+---
+
+### 🎞️ Dynamic / GIF (Rich)
+
+```js
+await sock.sendMessage(jid, {
+  dynamic: {
+    url: "https://example.com/animation.gif",
+    type: 2, // 1 = IMAGE, 2 = GIF
+    version: 1,
+    loopCount: 0, // 0 = loop forever
+  },
+  headerText: "Animation for you",
+});
+```
+
+---
+
+### 📦 Content Items (Rich)
 
 ```js
 await sock.sendMessage(jid, {
   contentItems: {
-    contentType: 1,  // 0 = DEFAULT, 1 = CAROUSEL
+    contentType: 1, // 0 = DEFAULT, 1 = CAROUSEL
     items: [
       {
-        kind: 'reel',
-        title: 'JavaScript Coding Tutorial',
-        profileIconUrl: 'https://example.com/avatar1.jpg',
-        thumbnailUrl: 'https://example.com/thumb1.jpg',
-        videoUrl: 'https://example.com/video1.mp4'
+        kind: "reel",
+        title: "JavaScript Coding Tutorial",
+        profileIconUrl: "https://example.com/avatar1.jpg",
+        thumbnailUrl: "https://example.com/thumb1.jpg",
+        videoUrl: "https://example.com/video1.mp4",
       },
-      {
-        kind: 'reel',
-        title: 'Learn React Hooks',
-        profileIconUrl: 'https://example.com/avatar2.jpg',
-        thumbnailUrl: 'https://example.com/thumb2.jpg',
-        videoUrl: 'https://example.com/video2.mp4'
-      }
-    ]
+    ],
   },
-  headerText: 'Video recommendations'
-})
+  headerText: "Video recommendation",
+});
 ```
 
 ---
 
-🔗 Links (Rich)
-
-Send text with inline citation/reference links.
+### 🎁 Rich Response (Combined)
 
 ```js
 await sock.sendMessage(jid, {
-  links: [
+  richResponse: [
+    { text: "Short explanation:" },
+    { code: "const x = 1 + 1", language: "javascript" },
     {
-      text: 'Visit documentation',
-      title: 'Docs',
-      displayName: 'Baileys Docs',
-      url: 'https://example.com/docs',
-      sources: [
-        {
-          displayName: 'Source 1',
-          subtitle: 'Trusted source',
-          url: 'https://example.com/source'
-        }
-      ]
-    }
+      table: [
+        ["Column A", "Column B"],
+        ["Value 1", "Value 2"],
+      ],
+      title: "Results",
+    },
+    {
+      richImage: [
+        "https://example.com/img1.jpg",
+        "https://example.com/img2.jpg",
+      ],
+    },
+    { source: [{ url: "https://example.com", title: "Data Source" }] },
+    { tip: "This information was generated automatically." },
+    { suggest: ["Ask more", "See other examples"] },
   ],
-  headerText: 'References',
-  footerText: 'Hope it helps'
-})
+  disclaimerText: "Generated by AI",
+});
 ```
 
 ---
 
-🎁 Rich Response (Combined)
-
-Send a combination of various Rich Message types in one message using array mode.
-
-```js
-// Text + code + table combination
-await sock.sendMessage(jid, {
-  richResponse: [
-    { text: 'Brief explanation:' },
-    { code: 'const x = 1 + 1', language: 'javascript' },
-    {
-      table: [['Column A', 'Column B'], ['Value 1', 'Value 2']],
-      title: 'Result'
-    },
-    { text: 'Hope that helps!' }
-  ],
-  disclaimerText: 'Generated by AI'
-})
-
-// Combination with all new types
-await sock.sendMessage(jid, {
-  richResponse: [
-    { text: 'Here are the results:' },
-    { richImage: ['https://example.com/img1.jpg', 'https://example.com/img2.jpg'] },
-    { source: [{ url: 'https://example.com', title: 'Data Source' }] },
-    { code: 'print("Hello")', language: 'python' },
-    {
-      product: [
-        { title: 'Product A', price: 'Rp 50.000', image_url: 'https://example.com/a.jpg', product_url: 'https://example.com/a' },
-        { title: 'Product B', price: 'Rp 75.000', image_url: 'https://example.com/b.jpg', product_url: 'https://example.com/b' }
-      ]
-    },
-    {
-      post: [
-        { username: 'user1', thumbnail_url: 'https://example.com/t1.jpg', post_url: 'https://ig.com/p/aaa', source_app: 'INSTAGRAM', likes_count: 1000 }
-      ]
-    },
-    { tip: 'This information is automatically generated.' },
-    { suggest: ['Ask more', 'See other examples', 'Start over'] }
-  ],
-  disclaimerText: 'Powered by AI'
-})
-```
-
-</details>
-
----
-
-<details>
-<summary>📥 Receive & Decode Rich Message</summary>
+📥 Receive & Decode Rich Messages
 
 ```js
 const { normalizeMessageContent, parseRichMessage } = require('@neodevxsadmd/baileys')
 
 sock.ev.on('messages.upsert', async ({ messages }) => {
-  for (const msg of messages) {
-    const inner = normalizeMessageContent(msg.message)
-    const parsed = parseRichMessage(inner?.richResponseMessage)
+for (const msg of messages) {
+  const inner = normalizeMessageContent(msg.message)
+  const parsed = parseRichMessage(inner?.richResponseMessage)
 
-    if (!parsed) continue
-
-    for (const sub of parsed.submessages) {
-      switch (sub.type) {
-        case 'text':
-          console.log('Text:', sub.text)
-          break
-        case 'code':
-          console.log('Code (' + sub.language + '):', sub.raw)
-          break
-        case 'table':
-          console.log('Table:', sub.title, sub.rows)
-          break
-        case 'gridImage':
-          console.log('Grid Image:', sub.gridImageUrl, sub.imageUrls)
-          break
-        case 'inlineImage':
-          console.log('Inline Image:', sub.imageUrl, sub.imageText)
-          break
-        case 'dynamic':
-          console.log('Dynamic:', sub.url, sub.dynamicType === 2 ? 'GIF' : 'Image')
-          break
-        case 'map':
-          console.log('Map:', sub.centerLatitude, sub.centerLongitude)
-          break
-        case 'latex':
-          console.log('LaTeX:', sub.text, sub.expressions)
-          break
-        case 'contentItems':
-          console.log('Content Items:', sub.contentType, sub.items)
-          break
-      }
+  if (!parsed) continue
+  
+  for (const sub of parsed.submessages) {
+    switch (sub. type) {
+      case 'text': console.log('Text:', sub.text); break
+      case 'code': console.log('Code:', sub.language, sub.raw); break
+      case 'table': console.log('Table:', sub.title, sub.rows); break
+      case 'grid Image': console.log('Grid Image:', subgrid Image Url); break
+      case 'inlineImage': console.log('Inline Image:', sub.imageUrl); break
+      case 'dynamic': console.log('Dynamic:', sub.url); break
+      case 'map': console.log('Map:', sub.centerLatitude, sub.centerLongitude); break
+      case 'latex': console.log('LaTeX:', sub.expressions); break
+      case 'contentItems': console.log('Content Items:', sub.items); break
     }
   }
+}
 })
 ```
 
-parseRichMessage safely handles null or undefined — returns null if no rich message is present.
+> `parseRichMessage` safely accepts `null` or `undefined` — return `null` if there is no rich message.
+
+---
+
+### Standalone Functions
+
+```js
+// sendLatex
+await sock.sendLatex(jid, m, {
+  text: "Pythagorean formula:",
+  expressions: [{ latexExpression: "a^2 + b^2 = c^2", width: 150, height: 45 }],
+  headerText: "Math",
+});
+
+// sendTable
+await sock.sendTable(
+  jid,
+  "City Data",
+  ["City", "Population"],
+  [
+    ["Jakarta", "10 million"],
+    ["Surabaya", "3 million"],
+  ],
+  m,
+);
+
+// sendList
+await sock.sendList(jid, "Shopping List", ["Apples", "Oranges", "Mango"], m);
+
+// send Code Block
+await sock.sendCodeBlock(jid, 'console.log("Hello")', m, {
+  language: "javascript",
+  title: "JS Example",
+});
+
+// sendLink
+await sock.sendLink(
+  jid,
+  "Visit documentation",
+  [{ url: "https://docs.example.com", displayName: "Docs" }],
+  m,
+);
+
+// sendRichMessage
+await sock.sendRichMessage(
+  jid,
+  [
+    { messageType: 2, messageText: "First text" },
+    { messageType: 2, messageText: "Second text" },
+  ],
+  m,
+);
+```
 
 </details>
 
 ---
 
 <details>
-<summary>📃 List Reply</summary>
+<summary>📃 List Reply </summary>
 
 ```js
 await sock.sendMessage(jid, {
   listReply: {
-    title: 'My Choice',
-    description: 'Choice description',
-    id: 'row1'  // selectedRowId from the chosen row
-  }
-})
+    title: "My Choice",
+    description: "Option description",
+    id: "row1", // selectedRowId of the selected row
+  },
+});
 ```
 
 </details>
@@ -2230,27 +2017,27 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>🎴 Sticker Pack</summary>
+<summary>🎴 Sticker Pack </summary>
 
 ```js
 await sock.sendMessage(jid, {
-  cover: fs.readFileSync('cover.webp'),  // required
-  name: 'Sad Pack',
-  publisher: 'NeoDev',
-  description: 'Cute sticker pack',
+  cover: fs.readFileSync("cover.webp"), // required
+  name: "Sad Pack",
+  publisher: "NeoDev",
+  description: "Cute sticker pack",
   stickers: [
     {
-      data: fs.readFileSync('sticker1.webp'),
-      emojis: ['😞', '🙂'],
-      accessibilityLabel: 'cute sticker'
+      data: fs.readFileSync("sticker1.webp"),
+      emojis: ["😞", "🙂"],
+      accessibilityLabel: "cute sticker",
     },
     {
-      data: { url: 'https://example.com/sticker2.webp' },
-      emojis: ['🥀']
-    }
+      data: { url: "https://example.com/sticker2.webp" },
+      emojis: ["🥀"],
+    },
     // maximum 60 stickers
-  ]
-})
+  ],
+});
 ```
 
 </details>
@@ -2258,20 +2045,20 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>📢 External Ad Reply</summary>
+<summary>📢 External Ad Reply </summary>
 
 ```js
 await sock.sendMessage(jid, {
-  text: 'Check out this product',
+  text: "Check this product",
   externalAdReply: {
-    title: 'Ad Title',
-    body: 'Ad description',
-    thumbnail: fs.readFileSync('thumbnail.jpg'),  // must be Buffer
-    url: 'https://example.com/product',
-    mediaType: 1,  // 1 = image
-    largeThumbnail: false
-  }
-})
+    title: "Advertising Title",
+    body: "Ad description",
+    thumbnail: fs.readFileSync("thumbnail.jpg"), // must be Buffer
+    url: "https://example.com/produk",
+    mediaType: 1,
+    largeThumbnail: false,
+  },
+});
 ```
 
 </details>
@@ -2279,16 +2066,16 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>💳 Request Payment</summary>
+<summary>💳 Request Payment </summary>
 
 ```js
 await sock.sendMessage(jid, {
-  text: 'Please transfer',
-  requestPaymentFrom: '628xxx@s.whatsapp.net',
-  amount1000: 50000000,      // Rp 50.000 (unit 1/1000)
-  currencyCodeIso4217: 'IDR',
-  expiryTimestamp: Date.now() + 86400000  // expires in 1 day
-})
+  text: "Please transfer, OK",
+  requestPaymentFrom: "628xxx@s.whatsapp.net",
+  amount1000: 50000000, // IDR 50,000 (unit 1/1000)
+  currencyCodeIso4217: "IDR",
+  expiryTimestamp: Date.now() + 86400000,
+});
 ```
 
 </details>
@@ -2296,13 +2083,14 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>🧾 Invoice</summary>
+<summary>🧾 Invoices </summary>
 
 ```js
-// With image
+// With pictures
 await sock.sendMessage(jid, {
   image: fs.readFileSync('invoice.jpg'),
-  invoiceNote: 'Purchase invoice\nTotal: Rp 150.000'
+  invoiceNote: 'Purchase invoice
+  Total: IDR 150,000'
 })
 
 // With PDF
@@ -2319,13 +2107,13 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>📦 Order</summary>
+<summary>📦 Orders </summary>
 
 ```js
 await sock.sendMessage(jid, {
   order: {
     orderId: 'order_001',
-    thumbnail: fs.readFileSync('product.jpg'),  // required
+    thumbnail: fs.readFileSync('product.jpg'), // required
     itemCount: 3,
     status: 'PAYMENT_PENDING',
     surface: 'CATALOG',
@@ -2333,8 +2121,8 @@ await sock.sendMessage(jid, {
     orderTitle: 'Order #001',
     sellerJid: '628xxx@s.whatsapp.net',
     token: 'unique_token',
-    totalAmount1000: 150000000,  // Rp 150.000
-    totalCurrencyCode: 'IDR'
+    totalAmount1000: 150000000,
+    total Currency Code: 'IDR'
   }
 })
 ```
@@ -2344,40 +2132,38 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>💨 Disappearing Messages</summary>
+<summary>💨 Disappearing Messages </summary>
 
 ```js
-// Enable (86400 seconds = 24 hours default)
-await sock.sendMessage(groupJid, { disappearingMessagesInChat: true })
+// Enable (default 86400 seconds = 24 hours)
+await sock.sendMessage(groupJid, { disappearingMessagesInChat: true });
 
 // Disable
-await sock.sendMessage(groupJid, { disappearingMessagesInChat: false })
+await sock.sendMessage(groupJid, { disappearingMessagesInChat: false });
 
 // Custom duration (seconds)
-await sock.sendMessage(groupJid, { disappearingMessagesInChat: 604800 })  // 7 days
+await sock.sendMessage(groupJid, { disappearingMessagesInChat: 604800 }); // 7 days
 ```
 
-Only works in groups (@g.us).
+> Only works in groups (`@g.us`).
 
 </details>
 
 ---
 
 <details>
-<summary>⚡ Raw Message</summary>
+<summary>⚡ Raw Message </summary>
 
 ```js
 await sock.sendMessage(jid, {
   raw: true,
   extendedTextMessage: {
-    text: 'Raw message directly to proto'
-  }
-})
+    text: "Order raw directly to proto",
+  },
+});
 ```
 
-When raw: true is present, all other properties are passed directly as a WAProto message without additional processing.
-
----
+> When `raw: true` is present, all other properties are passed directly as WAProto messages without additional processing.
 
 </details>
 

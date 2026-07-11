@@ -24,7 +24,7 @@
 
 ---
 
-## 📦 npm Stats
+📦 npm Stats
 
 <div align="center">
   <img src="https://img.shields.io/npm/dw/@neodevxsadmd/baileys?style=for-the-badge&logo=npm">
@@ -32,7 +32,7 @@
   <img src="https://img.shields.io/librariesio/dependents/npm/@neodevxsadmd/baileys?style=for-the-badge&logo=npm">
 </div>
 
-## 🌐 My Portfolio
+🌐 My Portfolio
 
 <div align="center">
   <a href="https://portofolio.neotex.my.id"><img src="https://img.shields.io/badge/Web%20Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"></a>
@@ -52,114 +52,116 @@
 <tr>
 <td valign="top" width="25%">
 
-**🔌 Connection & Setup**
+🔌 Connection & Setup
 
-- [Installation](#-installation)
-- [QR Code](#-connection-qr-code)
-- [Pairing Code](#-connection-pairing-code)
-- [Browser Identity](#-browser-identity)
-- [Connection Options](#%EF%B8%8F-connection-options)
+· Installation
+· QR Code
+· Pairing Code
+· Browser Identity
+· Connection Options
 
-**📨 Message Handle**
+📨 Message Handle
 
-- [Receive Message](#-receive-message)
-- [Handle Grip](#-handle-grip)
+· Receive Message
+· Handle Group
 
-**📤 Send Message**
+📤 Send Message
 
-- [Text](#-text)
-- [Image](#%EF%B8%8F-image)
-- [Video](#-video)
-- [Audio & Voice Note](#%EF%B8%8F-audio--voice-note)
-- [Document](#-document)
-- [Sticker](#-sticker)
-- [Location](#-location)
-- [Contact](#-contact)
-
-</td>
-<td valign="top" width="25%">
-
-**💬 Interaction**
-
-- [Reaction](#-reaction)
-- [Poll](#-poll)
-- [Poll Result](#-poll-result)
-- [Poll Update](#-poll-update)
-- [Forward](#%EF%B8%8F-forward)
-- [Delete Message](#%EF%B8%8F-delete-message)
-- [Edit Message](#%EF%B8%8F-edit-message)
-- [Message Pin](#-message-pin)
-
-**✨Additional Features**
-
-- [Album](#%EF%B8%8F-album)
-- [Event](#-event)
-- [Group Status / Story](#-group-status--group-story)
-- [Status Mention](#%EF%B8%8F-status-mention)
-- [Channel (Newsletter)](#-channel-newsletter)
-- [Flow Reply](#-flow-reply)
-- [Button Reply](#-button-reply)
-- [Keep In Chat](#-keep-in-chat)
-- [Scheduled Call](#-scheduled-call)
-- [Group Invite](#-group-invite)
-- [Product](#%EF%B8%8F-product)
+· Text
+· Image
+· Video
+· Audio & Voice Note
+· Document
+· Sticker
+· Location
+· Contact
 
 </td>
 <td valign="top" width="25%">
 
-**🎁 Wrapper**
+💬 Interaction
 
-- [View Once](#%EF%B8%8F-view-once)
-- [View Once V2](#%EF%B8%8F-view-once-v2)
-- [Ephemeral](#-ephemeral)
-- [Spoiler](#-spoiler)
-- [Group Status Wrap](#-group-status-wrap)
-- [Lottie Sticker](#%EF%B8%8F-lottie-sticker)
-- [AI Icon](#-ai-icon)
-- [Secure Meta Label](#-secure-meta-service-label)
+· Reaction
+· Poll
+· Poll Result
+· Poll Update
+· Forward
+· Delete Message
+· Edit Message
+· Message Pin
 
-- [Buttons Location Header](#-buttons-with-location-header)
-- [Buttons](#%EF%B8%8F-buttons)
-- [List Message](#-list-message)
-- [Template Buttons](#%EF%B8%8F-template-buttons)
-- [Native Flow](#-native-flow)
-- [Carousel](#-carousel)
+✨ Additional Features
 
-**🔧 More**
-
-- [List Reply](#-list-reply)
-- [Sticker Pack](#-sticker-pack)
-- [External Ad Reply](#-external-ad-reply)
-- [Request Payment](#-request-payment)
-- [Invoice](#-invoice)
-- [Order](#-order)
-- [Disappearing Messages](#-disappearing-messages)
-- [Raw Message](#-raw-message)
+· Album
+· Event
+· Group Status / Story
+· Status Mention
+· Channel (Newsletter)
+· Flow Reply
+· Button Reply
+· Keep In Chat
+· Scheduled Call
+· Group Invite
+· Product
 
 </td>
 <td valign="top" width="25%">
 
-**🤖 Rich Message (AI)**
+🎁 Wrapper
 
-- [addText](#-addtext)
-- [addCode](#-addcode)
-- [addTable](#-addtable)
-- [addImage](#%EF%B8%8F-addimage)
-- [add Video](#-and+video)
-- [addSource](#-addsource)
-- [addReels](#-addreels)
-- [addProduct](#%EF%B8%8F-addproduct)
-- [add Post](#-add-post)
-- [addTip](#-addtip)
-- [add Suggest](#-and-suggestion)
-- [Map](#%EF%B8%8F-map-rich)
-- [LaTeX](#-latex-rich)
-- [Grid Image](#%EF%B8%8F-grid-image-rich)
-- [Inline Image](#-inline-image-rich)
-- [Dynamic/GIF](#%EF%B8%8F-dynamic--gif-rich)
-- [Content Items](#-content-items-rich)
-- [Rich Response](#-rich-response-combined)
-- [Receive & Decode](#-receive--decode-rich-message)
+· View Once
+· View Once V2
+· Ephemeral
+· Spoiler
+· Group Status Wrap
+· Lottie Sticker
+· AI Icon
+· Secure Meta Label
+
+🎛️ Interactive
+
+· Buttons Location Header
+· Buttons
+· List Message
+· Template Buttons
+· Native Flow
+· Carousel
+
+🔧 More
+
+· List Reply
+· Sticker Pack
+· External Ad Reply
+· Request Payment
+· Invoice
+· Order
+· Disappearing Messages
+· Raw Message
+
+</td>
+<td valign="top" width="25%">
+
+🤖 Rich Message (AI)
+
+· addText
+· addCode
+· addTable
+· addImage
+· addVideo
+· addSource
+· addReels
+· addProduct
+· addPost
+· addTip
+· addSuggest
+· Map
+· LaTeX
+· Grid Image
+· Inline Image
+· Dynamic/GIF
+· Content Items
+· Rich Response
+· Receive & Decode
 
 </td>
 </tr>
@@ -189,10 +191,10 @@ import makeWASocket from "@neodevxsadmd/baileys";
 
 ```js
 const {
-default: makeWASocket,
-useMultiFileAuthState,
-DisconnectReason,
-fetch Latest Baileys Version
+  default: makeWASocket,
+  useMultiFileAuthState,
+  DisconnectReason,
+  fetchLatestBaileysVersion
 } = require('@neodevxsadmd/baileys')
 
 async function start() {
@@ -201,7 +203,7 @@ async function start() {
 
   const sock = makeWASocket({
     version,
-    auth:state,
+    auth: state,
     printQRInTerminal: true
   })
 
@@ -225,7 +227,7 @@ start()
 <details>
 <summary>🔑 Connection Pairing Code </summary>
 
-> Suitable for servers/VPS without terminal display.
+Suitable for servers/VPS without terminal display.
 
 ```js
 const sock = makeWASocket({ version, auth: state, printQRInTerminal: false });
@@ -240,7 +242,7 @@ sock.ev.on("connection.update", ({ connection, lastDisconnect }) => {
   }
 });
 
-// International format cellphone number without +
+// International format phone number without +
 if (!sock.authState.creds.registered) {
   const code = await sock.requestPairingCode("628123456789");
   console.log("Pairing code:", code);
@@ -331,7 +333,7 @@ sock.ev.on("messages.upsert", async ({ messages, type }) => {
 ---
 
 <details>
-<summary>👥 Group Handle </summary>
+<summary>👥 Handle Group </summary>
 
 ```js
 // Members log in/out
@@ -419,7 +421,7 @@ await sock.sendMessage(jid, {
   caption: "Caption",
 });
 
-// Buffers
+// Buffer
 await sock.sendMessage(jid, {
   image: fs.readFileSync("image.jpg"),
   caption: "Caption",
@@ -431,7 +433,7 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>🎬 Videos </summary>
+<summary>🎬 Video </summary>
 
 ```js
 await sock.sendMessage(jid, {
@@ -440,7 +442,7 @@ await sock.sendMessage(jid, {
   gifPlayback: false, // true = GIF looping
 });
 
-// Video notes (bubble)
+// Video note (bubble)
 await sock.sendMessage(jid, {
   video: fs.readFileSync("video.mp4"),
   ptv: true,
@@ -452,7 +454,7 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>🎙️ Audio & Voice Notes</summary>
+<summary>🎙️ Audio & Voice Note </summary>
 
 ```js
 // Regular audio
@@ -461,7 +463,7 @@ await sock.sendMessage(jid, {
   mimetype: "audio/mpeg",
 });
 
-// Voice notes (PTT)
+// Voice note (PTT)
 await sock.sendMessage(jid, {
   audio: fs.readFileSync("voice.ogg"),
   mimetype: "audio/ogg; codecs=opus",
@@ -474,7 +476,7 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>📄 Documents </summary>
+<summary>📄 Document </summary>
 
 ```js
 await sock.sendMessage(jid, {
@@ -490,7 +492,7 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>🎴 Stickers </summary>
+<summary>🎴 Sticker </summary>
 
 ```js
 await sock.sendMessage(jid, { sticker: fs.readFileSync("sticker.webp") });
@@ -507,7 +509,7 @@ await sock.sendMessage(jid, { sticker: fs.readFileSync("sticker.webp") });
 await sock.sendMessage(jid, {
   location: {
     degreesLatitude: -6.2088,
-    degrees Longitude: 106.8456,
+    degreesLongitude: 106.8456,
     name: 'Monas',
     address: 'Central Jakarta'
   }
@@ -526,11 +528,7 @@ await sock.sendMessage(jid, {
   contacts: {
     displayName: 'Name',
     contacts: [{
-      vcard: 'BEGIN:VCARD
-      VERSION:3.0
-      FN:Name
-      TEL:+62812345678
-      END:VCARD'
+      vcard: 'BEGIN:VCARD\nVERSION:3.0\nFN:Name\nTEL:+62812345678\nEND:VCARD'
     }]
   }
 })
@@ -575,7 +573,7 @@ await sock.sendMessage(jid, {
     endDate: new Date('2025-12-31'),
     hideVoter: true,
     canAddOption: false,
-    to Announcement Group: false
+    toAnnouncementGroup: false
   }
 })
 
@@ -596,7 +594,7 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>📈 Poll Results </summary>
+<summary>📈 Poll Result </summary>
 
 ```js
 await sock.sendMessage(jid, {
@@ -622,8 +620,8 @@ await sock.sendMessage(jid, {
 await sock.sendMessage(jid, {
   pollUpdate: {
     key: pollMessage.key,
-    vote: encrypted Vote Payload,
-  metadata: optionalMetadata
+    vote: encryptedVotePayload,
+    metadata: optionalMetadata
   }
 })
 ```
@@ -647,7 +645,7 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>🗑️ Delete Message</summary>
+<summary>🗑️ Delete Message </summary>
 
 ```js
 await sock.sendMessage(jid, { delete: m.key });
@@ -682,7 +680,7 @@ await sock.sendMessage(jid, {
   time: 86400, // 86400=1hr | 604800=7hr | 2592000=30hr
 });
 
-// Unipin
+// Unpin
 await sock.sendMessage(jid, { pin: m.key, type: 2 });
 ```
 
@@ -691,11 +689,11 @@ await sock.sendMessage(jid, { pin: m.key, type: 2 });
 ---
 
 <details>
-<summary>🗂️ Album s</summary>
+<summary>🗂️ Album </summary>
 
 ```js
 await sock.sendMessage(jid, {
-  albums: [
+  album: [
     { image: { url: "https://example.com/1.jpg" }, caption: "Photo 1" },
     { image: { url: "https://example.com/2.jpg" }, caption: "Photo 2" },
     { video: { url: "https://example.com/vid.mp4" }, caption: "Video" },
@@ -709,7 +707,7 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>📅 Events </summary>
+<summary>📅 Event </summary>
 
 ```js
 await sock.sendMessage(jid, {
@@ -720,7 +718,7 @@ await sock.sendMessage(jid, {
     endDate: new Date('2025-12-01T12:00:00'),
     location: {
       degreesLatitude: -6.2088,
-      degrees Longitude: 106.8456,
+      degreesLongitude: 106.8456,
       name: 'Monas, Jakarta'
     },
     extraGuestsAllowed: true
@@ -748,22 +746,22 @@ await sock.sendMessage(jid, {
 ```js
 // Text
 await sock.sendMessage(groupJid, {
-  group Status Message: { text: 'Status text' }
+  groupStatusMessage: { text: 'Status text' }
 })
 
-// Picture
+// Image
 await sock.sendMessage(groupJid, {
   groupStatusMessage: {
     image: { url: 'https://example.com/image.jpg' },
-  caption: 'Caption'
+    caption: 'Caption'
   }
 })
 
-// Videos
+// Video
 await sock.sendMessage(groupJid, {
   groupStatusMessage: {
     video: { url: 'https://example.com/video.mp4' },
-  caption: 'Caption'
+    caption: 'Caption'
   }
 })
 
@@ -771,7 +769,7 @@ await sock.sendMessage(groupJid, {
 await sock.sendMessage(groupJid, {
   groupStatusMessage: {
     audio: { url: 'https://example.com/audio.mp3' },
-  mimetype: 'audio/mpeg'
+    mimetype: 'audio/mpeg'
   }
 })
 
@@ -779,20 +777,20 @@ await sock.sendMessage(groupJid, {
 await sock.sendMessage(groupJid, {
   groupStatusMessage: {
     audio: fs.readFileSync('voice.ogg'),
-  mimetype: 'audio/ogg; codecs=opus',
-  ptt: true
+    mimetype: 'audio/ogg; codecs=opus',
+    ptt: true
   }
 })
 ```
 
-> **Audio note:** When audio is sent as a group status (`groupStatusMessageV2`), the message is sent with a `type="text"` and without a `mediatype` attribute — the same behavior as Baileys upstream. This is different from other media (images/videos) which are sent with `type="media"`.
+Audio note: When audio is sent as a group status (groupStatusMessageV2), the message is sent with type="text" and without a mediatype attribute — the same behavior as Baileys upstream. This is different from other media (images/videos) which are sent with type="media".
 
 </details>
 
 ---
 
 <details>
-<summary>🏷️ Status Mentions </summary>
+<summary>🏷️ Status Mention </summary>
 
 ```js
 // Send to JID array to trigger mention status
@@ -808,7 +806,7 @@ await sock.sendMessage(["628xxx@s.whatsapp.net"], {
 });
 ```
 
-> For groups, automatically use `groupStatusMentionMessage`.
+For groups, automatically use groupStatusMentionMessage.
 
 </details>
 
@@ -817,9 +815,9 @@ await sock.sendMessage(["628xxx@s.whatsapp.net"], {
 <details>
 <summary>📡 Channel (Newsletter) </summary>
 
-> **Fix v0.1.16** — Sending media to previous channels did not work due to two bugs: `mediatype` attribute was not sent to the server and thumbnails were not generated. Both have been fixed in this version.
+Fix v0.1.16 — Sending media to previous channels did not work due to two bugs: mediatype attribute was not sent to the server and thumbnails were not generated. Both have been fixed in this version.
 
-> Only **admin/owner** channels can post. The channel's JID uses the `@newsletter` format.
+Only admin/owner channels can post. The channel's JID uses the @newsletter format.
 
 ```js
 const channelJid = "120363425154682710@newsletter";
@@ -842,10 +840,10 @@ await sock.sendMessage(channelJid, {
 // Image from Buffer
 await sock.sendMessage(channelJid, {
   image: fs.readFileSync("image.jpg"),
-  caption: "From the buffer",
+  caption: "From buffer",
 });
 
-// Videos
+// Video
 await sock.sendMessage(channelJid, {
   video: { url: "https://example.com/video.mp4" },
   caption: "Video caption",
@@ -857,7 +855,7 @@ await sock.sendMessage(channelJid, {
   mimetype: "audio/mpeg",
 });
 
-// Documents
+// Document
 await sock.sendMessage(channelJid, {
   document: { url: "https://example.com/file.pdf" },
   mimetype: "application/pdf",
@@ -876,14 +874,14 @@ await sock.sendMessage(channelJid, {
 // Edit channel message
 await sock.sendMessage(channelJid, {
   text: "Edited text",
-  edit: oldmessage.key,
+  edit: oldMessage.key,
 });
 
 // Delete channel message
-await sock.sendMessage(channelJid, { delete: oldmessage.key });
+await sock.sendMessage(channelJid, { delete: oldMessage.key });
 ```
 
-> **Note:** Channels do not support E2E encryption — media is uploaded as raw files (unencrypted), unlike regular chat.
+Note: Channels do not support E2E encryption — media is uploaded as raw files (unencrypted), unlike regular chat.
 
 </details>
 
@@ -909,10 +907,10 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>🔘 Reply Button </summary>
+<summary>🔘 Button Reply </summary>
 
 ```js
-// Button templates
+// Template button
 await sock.sendMessage(jid, {
   buttonReply: { displayText: "Selected option", id: "btn_id", index: 0 },
   type: "template",
@@ -980,7 +978,7 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>🛍️ Products </summary>
+<summary>🛍️ Product </summary>
 
 ```js
 await sock.sendMessage(jid, {
@@ -990,7 +988,7 @@ await sock.sendMessage(jid, {
     title: 'Product Name',
     description: 'Product description',
     currencyCode: 'IDR',
-    price Amount 1000: 50000000,
+    priceAmount1000: 50000000,
     retailerId: 'sku_001',
     url: 'https://toko.example.com/produk'
   },
@@ -1025,7 +1023,7 @@ await sock.sendMessage(jid, {
   viewOnceV2: true,
 });
 
-// view Once V2 Extension
+// viewOnceV2Extension
 await sock.sendMessage(jid, {
   image: { url: "https://example.com/image.jpg" },
   viewOnceV2Extension: true,
@@ -1051,12 +1049,12 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>🙈 Spoilers </summary>
+<summary>🙈 Spoiler </summary>
 
 ```js
 await sock.sendMessage(jid, {
   image: { url: "https://example.com/image.jpg" },
-  caption: "Spoilers!",
+  caption: "Spoiler!",
   spoiler: true,
 });
 ```
@@ -1068,7 +1066,7 @@ await sock.sendMessage(jid, {
 <details>
 <summary>🎭 Group Status Wrap </summary>
 
-The `groupStatus: true` wrapper wraps any message into `groupStatusMessageV2` automatically.
+The groupStatus: true wrapper wraps any message into groupStatusMessageV2 automatically.
 
 ```js
 // Text
@@ -1077,7 +1075,7 @@ await sock.sendMessage(jid, {
   groupStatus: true,
 });
 
-// Picture
+// Image
 await sock.sendMessage(jid, {
   image: { url: "https://example.com/image.jpg" },
   caption: "Caption",
@@ -1092,7 +1090,7 @@ await sock.sendMessage(jid, {
 });
 ```
 
-> **Audio note:** Audio messages wrapped in `groupStatus: true` are sent with `type="text"` and without `mediatype` (upstream Baileys behavior). This only applies to audio — images and videos are still sent as `type="media"`.
+Audio note: Audio messages wrapped in groupStatus: true are sent with type="text" and without mediatype (upstream Baileys behavior). This only applies to audio — images and videos are still sent as type="media".
 
 </details>
 
@@ -1135,7 +1133,7 @@ await sock.sendMessage(jid, {
 
 ```js
 await sock.sendMessage(jid, {
-  text: "Order official service",
+  text: "Official service message",
   secureMetaServiceLabel: true,
 });
 ```
@@ -1147,15 +1145,15 @@ await sock.sendMessage(jid, {
 <details>
 <summary>📍 Buttons with Location Header </summary>
 
-Send buttons using `buttonsMessage` directly — useful for headers of type **Location** (`headerType: 6`) that cannot be created via the `buttons` shorthand.
+Send buttons using buttonsMessage directly — useful for headers of type Location (headerType: 6) that cannot be created via the buttons shorthand.
 
 ```js
 // Button with location header (headerType 6)
 await sock.sendMessage(jid, {
-  button Message: {
+  buttonsMessage: {
     locationMessage: {
       degreesLatitude: 0,
-      degrees Longitude: 0,
+      degreesLongitude: 0,
       name: 'NeoDev',
       address: 'SadMd',
       jpegThumbnail: './src/img/menu.jpg' // file path, URL, or Buffer
@@ -1163,7 +1161,7 @@ await sock.sendMessage(jid, {
     contentText: 'Select menu below',
     footerText: 'Powered by @neodevxsadmd/baileys',
     buttons: [
-      { button: 'menu', button Text: { display Text: 'All Menu' }, type: 1 }
+      { buttonId: 'allmenu', buttonText: { displayText: 'All Menu' }, type: 1 }
     ],
     headerType: 6
   }
@@ -1171,29 +1169,28 @@ await sock.sendMessage(jid, {
 
 // Empty header (text only) — headerType 1
 await sock.sendMessage(jid, {
-  button Message: {
+  buttonsMessage: {
     contentText: 'Select options',
-    footerText: 'Footer Bot',
+    footerText: 'Bot Footer',
     buttons: [
       { buttonId: 'yes', buttonText: { displayText: 'Yes' }, type: 1 },
       { buttonId: 'no', buttonText: { displayText: 'No' }, type: 1 }
     ],
-  headerType: 1
+    headerType: 1
   }
 })
 ```
 
-**`headerType` value:**
+headerType values:
 
-| Value | Header Type                  |
-| :---: | ---------------------------- |
-|  `1`  | Text (`contentText`)         |
-|  `2`  | Image (`imageMessage`)       |
-|  `3`  | Video (`videoMessage`)       |
-|  `4`  | Document (`documentMessage`) |
-|  `6`  | Location (`locationMessage`) |
+Value Header Type
+1 Text (contentText)
+2 Image (imageMessage)
+3 Video (videoMessage)
+4 Document (documentMessage)
+6 Location (locationMessage)
 
-> `jpegThumbnail` in `locationMessage` can be **local file path**, **URL**, or **Buffer** — automatically processed by Baileys.
+jpegThumbnail in locationMessage can be local file path, URL, or Buffer — automatically processed by Baileys.
 
 </details>
 
@@ -1203,7 +1200,7 @@ await sock.sendMessage(jid, {
 <summary>🎛️ Buttons </summary>
 
 ```js
-// Text with button (quick reply)
+// Text with buttons (quick reply)
 await sock.sendMessage(jid, {
   text: "Choose one",
   footer: "Message footer",
@@ -1245,14 +1242,14 @@ await sock.sendMessage(jid, {
 });
 ```
 
-> **Button field:** use `text` or `buttonText` for the label. Quick reply using `id`/`buttonId`. Native flow uses `name` + `paramsJson`.
+Button fields: use text or buttonText for the label. Quick reply uses id/buttonId. Native flow uses name + paramsJson.
 
 </details>
 
 ---
 
 <details>
-<summary>📋 List Messages </summary>
+<summary>📋 List Message </summary>
 
 ```js
 await sock.sendMessage(jid, {
@@ -1276,14 +1273,14 @@ await sock.sendMessage(jid, {
 });
 ```
 
-> **Trigger key:** `sections`. `listType` is automatically set to `SINGLE_SELECT`. The `text` field is mapped to `description` — use `title` for the list title.
+Trigger key: sections. listType is automatically set to SINGLE_SELECT. The text field is mapped to description — use title for the list title.
 
 </details>
 
 ---
 
 <details>
-<summary>🗃️ Button Templates </summary>
+<summary>🗃️ Template Buttons </summary>
 
 ```js
 // Text
@@ -1311,7 +1308,7 @@ await sock.sendMessage(jid, {
 });
 ```
 
-> **Button type:** `{ id, text }` → quick reply  ·  `{ url, text }` → URL button  ·  `{ call, text }` → call button.
+Button types: { id, text } → quick reply  ·  { url, text } → URL button  ·  { call, text } → call button.
 
 </details>
 
@@ -1337,7 +1334,7 @@ await sock.sendMessage(jid, {
   nativeFlow: [{ url: "https://example.com", text: "Open Website" }],
 });
 
-// Copy button code
+// Copy code button
 await sock.sendMessage(jid, {
   text: "Your promo code",
   nativeFlow: [{ copy: "PROMO2025", text: "Copy Code" }],
@@ -1363,7 +1360,7 @@ await sock.sendMessage(jid, {
           ],
         },
       ],
-      text: "Open Register",
+      text: "Open List",
     },
   ],
 });
@@ -1400,7 +1397,7 @@ await sock.sendMessage(jid, {
 });
 ```
 
-> **Button type is determined automatically:** `id` → quick_reply  ·  `url` → cta_url  ·  `copy` → cta_copy  ·  `call` → cta_call  ·  `sections` → single_select. Optional `icon` field (example: `'CHECK'`, `'LINK'`).
+Button type is determined automatically: id → quick_reply  ·  url → cta_url  ·  copy → cta_copy  ·  call → cta_call  ·  sections → single_select. Optional icon field (example: 'CHECK', 'LINK').
 
 </details>
 
@@ -1420,7 +1417,7 @@ await sock.sendMessage(jid, {
       caption: "Card description 1",
       footer: "Card footer 1",
       nativeFlow: [
-        { name: "quick_reply", paramsJson: '{"id":"c1"}', text: "SelectThis" },
+        { name: "quick_reply", paramsJson: '{"id":"c1"}', text: "Select This" },
       ],
     },
     {
@@ -1442,13 +1439,13 @@ await sock.sendMessage(jid, {
 <details>
 <summary>🤖 Rich Message (AI) </summary>
 
-> Rich messages use the `AIRichResponseMessage` format which appears like an AI response in WhatsApp. All types can be used flat (direct fields) or combined via `richResponse: [...]`.
+Rich messages use the AIRichResponseMessage format which appears like an AI response in WhatsApp. All types can be used flat (direct fields) or combined via richResponse: [...].
 
-> ⚠️ **Important:** `contentText`, `headerText`, `footerText`, and `disclaimerText` are **not** trigger keys. If only that field is sent, the message will not be processed as a rich message and will result in **Error: Invalid media type**. Always include at least one trigger key (`code`, `table`, `richImage`, `richVideo`, `richResponse`, etc.).
+⚠️ Important: contentText, headerText, footerText, and disclaimerText are not trigger keys. If only those fields are sent, the message will not be processed as a rich message and will result in Error: Invalid media type. Always include at least one trigger key (code, table, richImage, richVideo, richResponse, etc.).
 
 ---
 
-### ✍️ addText
+✍️ addText
 
 ```js
 // ✅ Correct way — use richResponse array for pure text
@@ -1473,7 +1470,7 @@ await sock.sendMessage(jid, {
 
 ---
 
-### 💻 addCode
+💻 addCode
 
 ```js
 await sock.sendMessage(jid, {
@@ -1485,32 +1482,31 @@ await sock.sendMessage(jid, {
 });
 ```
 
-**Supported languages:**
+Supported languages:
 
-| Language             | Key                                    |
-| -------------------- | -------------------------------------- |
-| JavaScript           | `javascript`, `js`                     |
-| TypeScript           | `typescript`, `ts`                     |
-| Python               | `python`, `py`                         |
-| Go                   | `go`, `golang`                         |
-| C++                  | `cpp`, `c++`                           |
-| Rust                 | `rust`, `rs`                           |
-| Java                 | `java`                                 |
-| PHP                  | `php`                                  |
-| Ruby                 | `ruby`, `rb`                           |
-| Kotlin               | `kotlin`, `kt`                         |
-| Swift                | `swift`                                |
-| C                    | `c`                                    |
-| SQL/MySQL/PostgreSQL | `sql`, `mysql`, `postgresql`, `sqlite` |
-| Bash/Shell           | `bash`, `sh`, `shell`                  |
-| HTML                 | `html`                                 |
-| CSS                  | `css`                                  |
-| JSON                 | `json`                                 |
-| YAML                 | `yaml`, `yml`                          |
+Language Key
+JavaScript javascript, js
+TypeScript typescript, ts
+Python python, py
+Go go, golang
+C++ cpp, c++
+Rust rust, rs
+Java java
+PHP php
+Ruby ruby, rb
+Kotlin kotlin, kt
+Swift swift
+C c
+SQL/MySQL/PostgreSQL sql, mysql, postgresql, sqlite
+Bash/Shell bash, sh, shell
+HTML html
+CSS css
+JSON json
+YAML yaml, yml
 
 ---
 
-### 📊 addTable
+📊 addTable
 
 ```js
 await sock.sendMessage(jid, {
@@ -1525,7 +1521,7 @@ await sock.sendMessage(jid, {
   footerText: "Data as of June 2025",
 });
 
-// No header line
+// Without header row
 await sock.sendMessage(jid, {
   table: [
     ["Item A", "Rp 10,000"],
@@ -1538,7 +1534,7 @@ await sock.sendMessage(jid, {
 
 ---
 
-### 🖼️ addImage
+🖼️ addImage
 
 ```js
 // One image
@@ -1560,7 +1556,7 @@ await sock.sendMessage(jid, {
 
 ---
 
-### 🎬 addVideo
+🎬 addVideo
 
 ```js
 // One video
@@ -1575,7 +1571,7 @@ await sock.sendMessage(jid, {
   headerText: "2 minute video",
 });
 
-// Some videos
+// Multiple videos
 await sock.sendMessage(jid, {
   richVideo: [
     "https://example.com/video1.mp4|60",
@@ -1587,7 +1583,7 @@ await sock.sendMessage(jid, {
 
 ---
 
-### 🔗 addSource
+🔗 addSource
 
 ```js
 await sock.sendMessage(jid, {
@@ -1610,18 +1606,17 @@ await sock.sendMessage(jid, {
 });
 ```
 
-| Fields         | Type    | Description                |
-| -------------- | ------- | -------------------------- |
-| `url`          | strings | Destination URL (required) |
-| `title`        | strings | Source title               |
-| `display_name` | strings | Display name               |
-| `subtitle`     | strings | Subtitle/short description |
-| `favicon`      | strings | Favicon URL (optional)     |
-| `source_type`  | strings | Default `'THIRD_PARTY'`    |
+Field Type Description
+url string Destination URL (required)
+title string Source title
+display_name string Display name
+subtitle string Subtitle/short description
+favicon string Favicon URL (optional)
+source_type string Default 'THIRD_PARTY'
 
 ---
 
-### 🎥 addReels
+🎥 addReels
 
 ```js
 await sock.sendMessage(jid, {
@@ -1642,24 +1637,23 @@ await sock.sendMessage(jid, {
 });
 ```
 
-| Fields                           | Type    | Description         |
-| -------------------------------- | ------- | ------------------- |
-| `username` / `title`             | strings | Creator name        |
-| `videoUrl` / `url`               | strings | Video URL           |
-| `thumbnailUrl` / `thumbnail`     | strings | Thumbnail URL       |
-| `profileIconUrl` / `profile_url` | strings | Profile photo URL   |
-| `reels_title`                    | strings | Reel title          |
-| `likes_count` / `like`           | number  | Number of likes     |
-| `view_count` / `views`           | number  | Number of views     |
-| `reel_source` / `source`         | strings | `'IG'`, `'TT'`, etc |
-| `is_verified` / `verified`       | boolean | Verified account    |
+Field Type Description
+username / title string Creator name
+videoUrl / url string Video URL
+thumbnailUrl / thumbnail string Thumbnail URL
+profileIconUrl / profile_url string Profile photo URL
+reels_title string Reel title
+likes_count / like number Number of likes
+view_count / view number Number of views
+reel_source / source string 'IG', 'TT', etc
+is_verified / verified boolean Verified account
 
 ---
 
-### 🛍️ addProduct
+🛍️ addProduct
 
 ```js
-// One product (Single layout)
+// Single product (Single layout)
 await sock.sendMessage(jid, {
   richProduct: {
     title: 'Product Name',
@@ -1675,32 +1669,32 @@ await sock.sendMessage(jid, {
 // Multiple products (HScroll layout)
 await sock.sendMessage(jid, {
   richProduct: [
-  {
-    title: 'Product A',
-    price: 'Rp 50,000',
-    product_url: 'https://toko.example.com/a',
-    image_url: 'https://example.com/a.jpg'
-  },
-  {
-    title: 'Product B',
-    price: 'Rp 75,000',
-    sale_price: 'Rp 60,000',
-    product_url: 'https://toko.example.com/b',
-    image_url: 'https://example.com/b.jpg'
-  }
+    {
+      title: 'Product A',
+      price: 'Rp 50,000',
+      product_url: 'https://toko.example.com/a',
+      image_url: 'https://example.com/a.jpg'
+    },
+    {
+      title: 'Product B',
+      price: 'Rp 75,000',
+      sale_price: 'Rp 60,000',
+      product_url: 'https://toko.example.com/b',
+      image_url: 'https://example.com/b.jpg'
+    }
   ],
   headerText: 'Today's featured products'
 })
 ```
 
-> Single object → **Single layout**  ·  Array → **HScroll layout**
+Single object → Single layout  ·  Array → HScroll layout
 
 ---
 
-### 📝 addPost
+📝 addPost
 
 ```js
-// One post
+// Single post
 await sock.sendMessage(jid, {
   richPost: {
     username: 'username',
@@ -1717,7 +1711,7 @@ await sock.sendMessage(jid, {
 })
 
 // Multiple posts (horizontal carousel)
-  await sock.sendMessage(jid, {
+await sock.sendMessage(jid, {
   richPost: [
     {
       username: 'user1',
@@ -1740,7 +1734,7 @@ await sock.sendMessage(jid, {
 
 ---
 
-### 💡 addTip
+💡 addTip
 
 ```js
 await sock.sendMessage(jid, {
@@ -1751,24 +1745,24 @@ await sock.sendMessage(jid, {
 
 ---
 
-### 🔮 addSuggest
+🔮 addSuggest
 
 ```js
-// Some suggestions (appears as a pill button)
+// Multiple suggestions (appears as pill buttons)
 await sock.sendMessage(jid, {
   contentText: 'Is there anything you want to ask?',
   suggest: [
     'Code example?',
     'What's the difference?',
     'When should it be used?',
-    'There are other alternatives?'
+    'Any other alternatives?'
   ]
 })
 ```
 
 ---
 
-### 🗺️ Map (Rich)
+🗺️ Map (Rich)
 
 ```js
 await sock.sendMessage(jid, {
@@ -1794,9 +1788,9 @@ await sock.sendMessage(jid, {
 
 ---
 
-### 🧮 LaTeX (Rich)
+🧮 LaTeX (Rich)
 
-> `url` in each expression will be **automatically generated** from [latex.codecogs.com](https://latex.codecogs.com) if not filled in.
+url in each expression will be automatically generated from latex.codecogs.com if not filled in.
 
 ```js
 await sock.sendMessage(jid, {
@@ -1805,16 +1799,16 @@ await sock.sendMessage(jid, {
     expressions: [
       { expression: 'F = ma', width: 80, height: 35 },
       { expression: 'v = u + at', width: 100, height: 35 },
-      { expression: 's = ut + \frac{1}{2}at^2', width: 160, height: 50 }
+      { expression: 's = ut + \\frac{1}{2}at^2', width: 160, height: 50 }
     ]
   },
-  headerText: 'Newton's Laws'
+  headerText: "Newton's Laws"
 })
 ```
 
 ---
 
-### 🖼️ Grid Image (Rich)
+🖼️ Grid Image (Rich)
 
 ```js
 await sock.sendMessage(jid, {
@@ -1828,23 +1822,23 @@ await sock.sendMessage(jid, {
 
 ---
 
-### 📸 Inline Image (Rich)
+📸 Inline Image (Rich)
 
 ```js
 await sock.sendMessage(jid, {
-    inlineImage: {
+  inlineImage: {
     imageUrl: 'https://picsum.photos/id/237/300/300',
     imageText: 'Image illustration',
     alignment: 2, // 0 = leading, 1 = trailing, 2 = center
     tapLinkUrl: 'https://picsum.photos'
   },
-  headerText: 'Here's an illustration'
+  headerText: "Here's an illustration"
 })
 ```
 
 ---
 
-### 🎞️ Dynamic / GIF (Rich)
+🎞️ Dynamic / GIF (Rich)
 
 ```js
 await sock.sendMessage(jid, {
@@ -1860,7 +1854,7 @@ await sock.sendMessage(jid, {
 
 ---
 
-### 📦 Content Items (Rich)
+📦 Content Items (Rich)
 
 ```js
 await sock.sendMessage(jid, {
@@ -1882,7 +1876,7 @@ await sock.sendMessage(jid, {
 
 ---
 
-### 🎁 Rich Response (Combined)
+🎁 Rich Response (Combined)
 
 ```js
 await sock.sendMessage(jid, {
@@ -1912,40 +1906,40 @@ await sock.sendMessage(jid, {
 
 ---
 
-📥 Receive & Decode Rich Messages
+📥 Receive & Decode Rich Message
 
 ```js
 const { normalizeMessageContent, parseRichMessage } = require('@neodevxsadmd/baileys')
 
 sock.ev.on('messages.upsert', async ({ messages }) => {
-for (const msg of messages) {
-  const inner = normalizeMessageContent(msg.message)
-  const parsed = parseRichMessage(inner?.richResponseMessage)
+  for (const msg of messages) {
+    const inner = normalizeMessageContent(msg.message)
+    const parsed = parseRichMessage(inner?.richResponseMessage)
 
-  if (!parsed) continue
-  
-  for (const sub of parsed.submessages) {
-    switch (sub. type) {
-      case 'text': console.log('Text:', sub.text); break
-      case 'code': console.log('Code:', sub.language, sub.raw); break
-      case 'table': console.log('Table:', sub.title, sub.rows); break
-      case 'grid Image': console.log('Grid Image:', subgrid Image Url); break
-      case 'inlineImage': console.log('Inline Image:', sub.imageUrl); break
-      case 'dynamic': console.log('Dynamic:', sub.url); break
-      case 'map': console.log('Map:', sub.centerLatitude, sub.centerLongitude); break
-      case 'latex': console.log('LaTeX:', sub.expressions); break
-      case 'contentItems': console.log('Content Items:', sub.items); break
+    if (!parsed) continue
+
+    for (const sub of parsed.submessages) {
+      switch (sub.type) {
+        case 'text':         console.log('Text:', sub.text); break
+        case 'code':         console.log('Code:', sub.language, sub.raw); break
+        case 'table':        console.log('Table:', sub.title, sub.rows); break
+        case 'gridImage':    console.log('Grid Image:', sub.gridImageUrl); break
+        case 'inlineImage':  console.log('Inline Image:', sub.imageUrl); break
+        case 'dynamic':      console.log('Dynamic:', sub.url); break
+        case 'map':          console.log('Map:', sub.centerLatitude, sub.centerLongitude); break
+        case 'latex':        console.log('LaTeX:', sub.expressions); break
+        case 'contentItems': console.log('Content Items:', sub.items); break
+      }
     }
   }
-}
 })
 ```
 
-> `parseRichMessage` safely accepts `null` or `undefined` — return `null` if there is no rich message.
+parseRichMessage safely accepts null or undefined — returns null if there is no rich message.
 
 ---
 
-### Standalone Functions
+Standalone Functions
 
 ```js
 // sendLatex
@@ -1968,9 +1962,9 @@ await sock.sendTable(
 );
 
 // sendList
-await sock.sendList(jid, "Shopping List", ["Apples", "Oranges", "Mango"], m);
+await sock.sendList(jid, "Shopping List", ["Apples", "Oranges", "Mangoes"], m);
 
-// send Code Block
+// sendCodeBlock
 await sock.sendCodeBlock(jid, 'console.log("Hello")', m, {
   language: "javascript",
   title: "JS Example",
@@ -2051,7 +2045,7 @@ await sock.sendMessage(jid, {
 await sock.sendMessage(jid, {
   text: "Check this product",
   externalAdReply: {
-    title: "Advertising Title",
+    title: "Ad Title",
     body: "Ad description",
     thumbnail: fs.readFileSync("thumbnail.jpg"), // must be Buffer
     url: "https://example.com/produk",
@@ -2070,7 +2064,7 @@ await sock.sendMessage(jid, {
 
 ```js
 await sock.sendMessage(jid, {
-  text: "Please transfer, OK",
+  text: "Please transfer",
   requestPaymentFrom: "628xxx@s.whatsapp.net",
   amount1000: 50000000, // IDR 50,000 (unit 1/1000)
   currencyCodeIso4217: "IDR",
@@ -2083,14 +2077,13 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>🧾 Invoices </summary>
+<summary>🧾 Invoice </summary>
 
 ```js
-// With pictures
+// With image
 await sock.sendMessage(jid, {
   image: fs.readFileSync('invoice.jpg'),
-  invoiceNote: 'Purchase invoice
-  Total: IDR 150,000'
+  invoiceNote: 'Purchase invoice\nTotal: IDR 150,000'
 })
 
 // With PDF
@@ -2107,7 +2100,7 @@ await sock.sendMessage(jid, {
 ---
 
 <details>
-<summary>📦 Orders </summary>
+<summary>📦 Order </summary>
 
 ```js
 await sock.sendMessage(jid, {
@@ -2122,7 +2115,7 @@ await sock.sendMessage(jid, {
     sellerJid: '628xxx@s.whatsapp.net',
     token: 'unique_token',
     totalAmount1000: 150000000,
-    total Currency Code: 'IDR'
+    totalCurrencyCode: 'IDR'
   }
 })
 ```
@@ -2145,7 +2138,7 @@ await sock.sendMessage(groupJid, { disappearingMessagesInChat: false });
 await sock.sendMessage(groupJid, { disappearingMessagesInChat: 604800 }); // 7 days
 ```
 
-> Only works in groups (`@g.us`).
+Only works in groups (@g.us).
 
 </details>
 
@@ -2158,12 +2151,12 @@ await sock.sendMessage(groupJid, { disappearingMessagesInChat: 604800 }); // 7 d
 await sock.sendMessage(jid, {
   raw: true,
   extendedTextMessage: {
-    text: "Order raw directly to proto",
+    text: "Raw message directly to proto",
   },
 });
 ```
 
-> When `raw: true` is present, all other properties are passed directly as WAProto messages without additional processing.
+When raw: true is present, all other properties are passed directly as WAProto messages without additional processing.
 
 </details>
 
@@ -2174,5 +2167,3 @@ await sock.sendMessage(jid, {
 </div>
 
 <br>
-
----

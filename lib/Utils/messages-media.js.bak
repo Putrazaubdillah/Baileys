@@ -295,25 +295,10 @@ export async function generateThumbnail(file, mediaType, options) {
     };
 }
 export const getHttpStream = async (url, options = {}) => {
-    const urlStr = url.toString();
-    // Auto-inject Referer for domains that require it (e.g. tikwm.com)
-    let autoHeaders = {};
-    try {
-        const parsedUrl = new URL(urlStr);
-        const origin = parsedUrl.origin;
-        autoHeaders = {
-            'Referer': origin + '/',
-            'User-Agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Mobile Safari/537.36'
-        };
-    } catch (_) {}
-    const mergedHeaders = {
-        ...autoHeaders,
-        ...(options.headers || {})
-    };
-    const response = await fetch(urlStr, {
+    const response = await fetch(url.toString(), {
         dispatcher: options.dispatcher,
         method: 'GET',
-        headers: mergedHeaders
+        headers: options.headers
     });
     if (!response.ok) {
         throw new Boom(`Failed to fetch stream from ${url}`, { statusCode: response.status, data: { url } });

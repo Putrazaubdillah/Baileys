@@ -313,7 +313,7 @@ const prepareProductMessage = async (message, options) => {
     return content;
 };
 const prepareStickerPackMessage = async (message, options) => {
-    const { cover, stickers = [], name = '📦 Sticker Pack', publisher = 'GitHub: putrazaubdillah', description = '🏷️ @neodevxsadmd/baileys' } = message;
+    const { cover, stickers = [], name = '📦 Sticker Pack', publisher = 'GitHub: Putrazaubdillah', description = '🏷️ neodevxsadmd/baileys' } = message;
     if (stickers.length > 60) {
         throw new Boom('Sticker pack exceeds the maximum limit of 60 stickers', { statusCode: 400 });
     }

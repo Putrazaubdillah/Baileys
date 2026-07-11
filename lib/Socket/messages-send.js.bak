@@ -471,7 +471,8 @@ export const makeMessagesSocket = (config) => {
         }
         await authState.keys.transaction(async () => {
             const normalizedMsg = normalizeMessageContent(message);
-            const mediaType = getMediaType(normalizedMsg || message);
+            const isGroupStatusAudio = !!(message?.groupStatusMessageV2?.message?.audioMessage);
+            const mediaType = isGroupStatusAudio ? undefined : getMediaType(normalizedMsg || message);
             if (mediaType) {
                 extraAttrs['mediatype'] = mediaType;
             }
@@ -489,6 +490,7 @@ export const makeMessagesSocket = (config) => {
                         to: jid,
                         id: msgId,
                         type: getMessageType(message),
+                        ...(extraAttrs || {}),
                         ...(additionalAttributes || {})
                     },
                     content: binaryNodeContent
@@ -912,7 +914,9 @@ export const makeMessagesSocket = (config) => {
         if (normalizedMessage.eventMessage) {
             return 'event';
         }
-        if (getMediaType(normalizedMessage) !== '') {
+        // Audio wrapped in groupStatusMessageV2 → type "text" (Baileys behavior)
+        const isGroupStatusAudio = !!(message?.groupStatusMessageV2?.message?.audioMessage);
+        if (!isGroupStatusAudio && getMediaType(normalizedMessage) !== '') {
             return 'media';
         }
         return 'text';

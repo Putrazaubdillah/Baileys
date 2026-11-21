@@ -1,7 +1,7 @@
 {
   "name": "@neodevxsadmd/baileys",
   "type": "module",
-  "version": "1.4.0",
+  "version": "1.4.0-latest",
   "description": "Lazy",
   "keywords": [
     "whatsapp",

@@ -35,7 +35,7 @@
 🌐 My Portfolio
 
 <div align="center">
-  <a href="https://portofolio.neotex.my.id"><img src="https://img.shields.io/badge/Web%20Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"></a>
+  <a href="https://portofolio.neovex.my.id"><img src="https://img.shields.io/badge/Web%20Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"></a>
   <a href="https://whatsapp.com/channel/0029Vb6or7TLo4hk94s6Fc15"><img src="https://img.shields.io/badge/Channel%201-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
   <a href="https://whatsapp.com/channel/0029Vb89RtLCRs1er5KfJy3I"><img src="https://img.shields.io/badge/Channel%202-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
   <a href="https://chat.whatsapp.com/BC5eioSH3Vm1jCNNjsyCnj"><img src="https://img.shields.io/badge/Join%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
